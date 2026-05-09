@@ -8,7 +8,6 @@
 *.gpg
 
 # 忽略 debs 根目录下的 deb（由 gen.sh 复制，不提交）
-/debs/*.deb
 
 # 系统文件
 .DS_Store
