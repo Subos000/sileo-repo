@@ -3,7 +3,7 @@ Name: floatingView
 Description: 分屏，不必太复杂，一切从简即可。
 Maintainer: be-huge
 Author: be-huge
-Section: Tweaks
+Section: roothide
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
 Architecture: iphoneos-arm64e
 Version: 1.6.0-1
