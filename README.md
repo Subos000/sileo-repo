@@ -13,9 +13,7 @@ https://subos000.github.io/sileo-repo
 | 分类 | 说明 |
 |------|------|
 | Roothide 插件 | 基于 roothide 越狱的插件 |
-| Tweaks | 系统增强与修改插件 |
-| Widgets | 桌面小部件 |
-| Utilities | 实用工具 |
+
 
 ## 使用说明
 

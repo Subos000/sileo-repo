@@ -1,65 +1,20 @@
-Package: com.subos000.roothide-sample
-Name: Roothide Sample Tweak
-Version: 1.0.0
-Architecture: iphoneos-arm
-Description: 一个示例 Roothide 插件
-Maintainer: Subos000
-Author: Subos000
-Section: Roothide 插件
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
-Tag: roothide
-Filename: ./debs/com.subos000.roothide-sample_1.0.0_iphoneos-arm.deb
-Size: 760
-MD5sum: 7c34d1abf0d016dfb99f356bdce1ece2
-SHA1: 197de2858282a72ea4e3753f9d1b7fbb14413760
-SHA256: 217c45642a2858604f2765d526d7c490324150aaf9b8d756077f82542529bab5
-SHA512: 1e2f0333c8e2a71d135b99dcbbc473f728f789eec91327a6e548a60d3903bffa1ed4bf917c294a7474d51a3f7a236a62907b234f52e17f37eef2e3a3f094a80d
-
-Package: com.subos000.tweaks-sample
-Name: Sample Tweak
-Version: 1.0.0
-Architecture: iphoneos-arm
-Description: 一个示例系统增强插件
-Maintainer: Subos000
-Author: Subos000
+Package: com.be-huge.floating-view
+Name: floatingView
+Description: 分屏，不必太复杂，一切从简即可。
+Maintainer: be-huge
+Author: be-huge
 Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.subos000.tweaks-sample_1.0.0_iphoneos-arm.deb
-Size: 742
-MD5sum: 874b4630fe53edd3de73ec0b9338e008
-SHA1: d97bb596937f793e5fc9f19ce0e7c8873c2af305
-SHA256: 61343b088390eecfe495536f49ee67b401736c5c502672f7b6c61b1ae093ea14
-SHA512: 9cf2241a7b0173536a635c736db63c39d1439b89133c446ecbd8df9b93b07299042289aafbdaa1d76f686509ca01bb194effb9e0a05e166876323b9c7e82b0e5
-
-Package: com.subos000.utilities-sample
-Name: Sample Utility
-Version: 1.0.0
-Architecture: iphoneos-arm
-Description: 一个示例实用工具
-Maintainer: Subos000
-Author: Subos000
-Section: Utilities
-Depends: firmware (>= 12.0)
-Filename: ./debs/com.subos000.utilities-sample_1.0.0_iphoneos-arm.deb
-Size: 720
-MD5sum: 1f0c6b3fed5cea5461ff0345c2e26ed6
-SHA1: 981766f767b05d906e157f8999ffd50191533402
-SHA256: d76da67164dfdeb34fd129dcbdb8788d7a18e8212494b4128aff02ddadce0dd7
-SHA512: da75691e96bee434002442f28aa31a94c63f9b6453d5c370507d9fc331478cd442674e1dadbb9887e85dd85e02dc9c50650f5290343b93d40e5e3fcf533480df
-
-Package: com.subos000.widgets-sample
-Name: Sample Widget
-Version: 1.0.0
-Architecture: iphoneos-arm
-Description: 一个示例桌面小部件
-Maintainer: Subos000
-Author: Subos000
-Section: Widgets
-Depends: firmware (>= 14.0)
-Filename: ./debs/com.subos000.widgets-sample_1.0.0_iphoneos-arm.deb
-Size: 710
-MD5sum: ecc321a84c779bef383336329b06c1ca
-SHA1: ea71b8409104acbad9490f28b76c03e58957836c
-SHA256: eaedf7f57859c95463dd434f72fbb7018ca89f3217beeff1c6650aa9e0b3a659
-SHA512: 35c5ffff6d1c3e84382f3b74d9aa0c7bb9e74521e14f94ae955b10a7f261ba4a7415ee5b95802b850db35bc69f16c51dc515c95201126decd808711fc97e5c8a
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64e
+Version: 1.6.0-1
+Installed-Size: 2692
+Icon: https://s1.imagehub.cc/images/2025/01/11/a6ee9b7d3555d062c59b68c2c71c7406.png
+SileoDepiction:https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/floatingView.json
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/floatingView-1.6.0-1-iphoneos-arm64e.deb
+Size: 1796570
+MD5sum: edee521f78341f8ed04bcb06c6ee65ee
+SHA1: 8f3f9ed0b47a22c5141c0ddabdfd598db828fa10
+SHA256: c6b4edb9cc70663c59d3545ada67f6dd83d4bdb9cac5520df27bcc63a1cc9d78
+SHA512: 0c7fb42c0fc3dd99f904fd20a0ebc791b3d069555e21a79c1357d9822d15db5eaca64a99f268d40e4063a391ea4552ac5c67bd4ed099919de3082501fc543466
 

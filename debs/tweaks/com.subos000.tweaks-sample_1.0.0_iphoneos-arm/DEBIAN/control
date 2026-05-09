@@ -1,9 +1,0 @@
-Package: com.subos000.tweaks-sample
-Name: Sample Tweak
-Version: 1.0.0
-Architecture: iphoneos-arm
-Description: 一个示例系统增强插件
-Maintainer: Subos000
-Author: Subos000
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
