@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+<title>duck1001 Sileo 软件源</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif;
+  background:linear-gradient(135deg,#0f0f1a 0%,#1a1a2e 50%,#16213e 100%);
+  color:#e4e4f0;min-height:100vh;display:flex;align-items:center;justify-content:center
+}
+.container{width:100%;max-width:420px;padding:32px 24px;text-align:center}
+.icon-wrap{position:relative;display:inline-block;margin-bottom:20px}
+.icon-wrap img{width:88px;height:88px;border-radius:22px;box-shadow:0 8px 32px rgba(88,166,255,0.25);border:2px solid rgba(255,255,255,0.08)}
+.icon-wrap .badge{position:absolute;bottom:-4px;right:-8px;background:#238636;color:#fff;font-size:10px;padding:2px 8px;border-radius:10px;font-weight:600}
+h1{font-size:26px;font-weight:700;letter-spacing:-0.5px;margin-bottom:4px}
+.sub{color:#8b949e;font-size:14px;margin-bottom:28px}
+.source-card{
+  background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);
+  border-radius:16px;padding:20px;margin-bottom:20px;backdrop-filter:blur(10px)
+}
+.source-card .url{
+  font-size:13px;color:#58a6ff;background:rgba(88,166,255,0.08);
+  border-radius:10px;padding:12px;word-break:break-all;font-family:'SF Mono',monospace;margin-bottom:16px
+}
+.sileo-btn{
+  display:flex;align-items:center;justify-content:center;gap:10px;
+  width:100%;padding:14px;border:none;border-radius:12px;
+  font-size:16px;font-weight:600;cursor:pointer;
+  background:linear-gradient(135deg,#238636,#2ea043);color:#fff;
+  text-decoration:none;transition:transform 0.15s,box-shadow 0.15s;
+  box-shadow:0 4px 16px rgba(35,134,54,0.3)
+}
+.sileo-btn:active{transform:scale(0.97)}
+.sileo-btn svg{width:22px;height:22px;fill:#fff}
+.alt-btns{display:flex;gap:10px;margin-top:12px}
+.alt-btns a{
+  flex:1;padding:10px;border-radius:10px;font-size:13px;font-weight:500;
+  text-decoration:none;border:1px solid rgba(255,255,255,0.1);color:#c9d1d9;
+  background:rgba(255,255,255,0.03);transition:background 0.2s
+}
+.alt-btns a:active{background:rgba(255,255,255,0.08)}
+.steps{
+  background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);
+  border-radius:16px;padding:20px;margin-bottom:20px;text-align:left
+}
+.steps h3{font-size:14px;font-weight:600;color:#8b949e;margin-bottom:14px;text-transform:uppercase;letter-spacing:0.5px}
+.step-item{display:flex;align-items:center;gap:12px;padding:8px 0}
+.step-num{
+  width:26px;height:26px;border-radius:50%;background:rgba(88,166,255,0.12);
+  color:#58a6ff;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0
+}
+.step-text{font-size:14px;color:#c9d1d9}
+.footer{padding:16px 0;font-size:12px;color:#484f58}
+.footer a{color:#58a6ff;text-decoration:none;opacity:0.7}
+.footer a:hover{opacity:1}
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="icon-wrap">
+<img src="CydiaIcon.png" alt="duck1001">
+<span class="badge">Sileo</span>
+</div>
+
+<h1>duck1001 Repo</h1>
+<p class="sub">duck1001 的个人越狱软件源</p>
+
+<div class="source-card">
+<div class="url">https://duck1001.github.io/sileo-repo</div>
+<a class="sileo-btn" href="sileo://source/https://duck1001.github.io/sileo-repo">
+  <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+  添加到 Sileo
+</a>
+<div class="alt-btns">
+<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://duck1001.github.io/sileo-repo">Cydia</a>
+<a href="zbra://sources/add/https://duck1001.github.io/sileo-repo">Zebra</a>
+</div>
+</div>
+
+<div class="steps">
+<h3>手动添加步骤</h3>
+<div class="step-item"><span class="step-num">1</span><span class="step-text">打开 Sileo → 来源</span></div>
+<div class="step-item"><span class="step-num">2</span><span class="step-text">点右上角 「+」</span></div>
+<div class="step-item"><span class="step-num">3</span><span class="step-text">粘贴上方地址 → 添加</span></div>
+</div>
+
+<div class="footer">
+<a href="https://github.com/duck1001/sileo-repo">GitHub</a> · 由 duck1001 维护
+</div>
+
+</div>
+</body>
+</html>
