@@ -18,3 +18,22 @@ SHA1: 8f3f9ed0b47a22c5141c0ddabdfd598db828fa10
 SHA256: c6b4edb9cc70663c59d3545ada67f6dd83d4bdb9cac5520df27bcc63a1cc9d78
 SHA512: 0c7fb42c0fc3dd99f904fd20a0ebc791b3d069555e21a79c1357d9822d15db5eaca64a99f268d40e4063a391ea4552ac5c67bd4ed099919de3082501fc543466
 
+Package: com.wkk.gaodehook
+Name: 高德地图NoAds
+Description: 去开屏/首页顶部/部分豆腐块广告/去升级提示/去一些弹窗，测试版本：16.10.6
+Maintainer: wkk
+Author: wkk
+Section: 去广告
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.1-3
+Installed-Size: 400
+Icon: https://s1.imagehub.cc/images/2025/02/06/40c726a175b0b0a82d1fbc1c0c309be8.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/高德地图NoAds-1.1-3-iphoneos-arm64e.deb
+Size: 38702
+MD5sum: 8d11afe1c4b6248fd58043d5e63c0aef
+SHA1: f25d09bd389aee062a06744b4b7118210dbd0c68
+SHA256: d339947a3ee3ccf86c58411f95937a88c01c7a8518812180104c1e25005da984
+SHA512: f95e9a1d333cc22926c5f3705b90982a63355452be8e768cdde4fe70c7484a3219d81fc9edaa48038229e3f155c445162f42d3dd8329d5cbb40c844b5fbb4759
+

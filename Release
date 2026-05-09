@@ -5,13 +5,13 @@ Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64
 Components: main
 Description: Subos000's Sileo jailbreak repository
-Date: Sat, 09 May 2026 13:51:57 +0800
+Date: Sat, 09 May 2026 14:07:34 +0800
 MD5Sum:
- 072a31d153e8b6d87ce7dd5aa6fa7509 890 Packages
- 40763264135badcb6da1da876730ba2f 650 Packages.gz
+ c3a8ea4f3d4748358f703c751c9c46a8 1700 Packages
+ a3782476204a632360517e1969beb7c7 1061 Packages.gz
 SHA1:
- 7b163bf04d56df72de5e85ae2634dd43acc57b92 890 Packages
- 2957baae27d124959d8cc0135342d05375d7d5d5 650 Packages.gz
+ 7672c01bc505bd5c8a67c74fc2f9bfdc1c64980a 1700 Packages
+ b29949da7d4073b44f037e5c1e9a5fc25d1a26d1 1061 Packages.gz
 SHA256:
- 3065bb315f2701e30aaad44007f9fce440effa3f3702f92c1c74a3c9bada82fc 890 Packages
- 31032ea1f6ed79245c3f23e67b4cfaaf05cc7e291d074016a4dc71a00bc02a39 650 Packages.gz
+ ebc92285017163c267002ba365ef94514f51932dad50c83b0da9f466826b43e7 1700 Packages
+ 9f0e93028f59daec26a1241b984799543a2bdf3f23e07b2e0e234fde6fe5b0ed 1061 Packages.gz
