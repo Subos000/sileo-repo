@@ -5,11 +5,11 @@
 
 set -e
 
-REPO_NAME="Subos000 Repo"
-REPO_LABEL="Subos000 Sileo Repo"
-REPO_DESC="Subos000's Sileo jailbreak repository"
+REPO_NAME="鸭鸭"
+REPO_LABEL=" Sileo Repo"
+REPO_DESC="duck's Sileo jailbreak repository"
 REPO_CODENAME="ios"
-REPO_ARCH="iphoneos-arm iphoneos-arm64"
+REPO_ARCH="iphoneos-arm64 iphoneos-arm64e"
 REPO_COMPONENTS="main"
 SUITE="stable"
 

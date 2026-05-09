@@ -2,7 +2,7 @@ Package: com.wkk.appdata.iosdump
 Name: AppData
 Version: 2.0.1
 Description: 修复ios17+上的选择应用版本降级时导致SpringBoard崩溃问题，修复其它小问题并优化修改图标逻辑以及添加长按应用图标禁用应用通知，说明：单击应用图标可修改图标，长按可禁用通知，恢复再次长按即可，恢复通知可能会有些许延迟，已在ios14.3、15.4、16.4.1、17.0，测试并且所有修改仅在SpringBoard层面生效。
-Section: Tweaks
+Section: 系统增强
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Conflicts:com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
 Architecture: iphoneos-arm64e
@@ -22,7 +22,7 @@ Name: CCBorder(roothide)
 Description: 控制中心调整，基于开源修改编译，去掉了AlderisColorPicker依赖
 Maintainer: fiore & p2kdev & SINI
 Author: fiore & p2kdev & SINI
-Section: 控制中心
+Section: 系统增强
 Depends: mobilesubstrate, firmware (>= 16.0)
 Icon: https://sini921.github.io/repo/sileodepiction/icon/ccborder.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccborder/js.json
@@ -36,12 +36,88 @@ SHA1: bb5c97e42618230cbff3736981d87e5afe325c90
 SHA256: d51be8d0bd3b6eb6ed4c6542834a05c7f7ccf529b8ce32db1a5387501515e11b
 SHA512: 216a965bdccf437b79772408efbe0b8313d58af8259cc52e5f48ec21aa741608866fb1dd527286b2ac862ae2d6754b37641aaa073b51b2787f02bdea0e64383f
 
+Package: com.sini921.pscamera
+Name: PSCamera(roothide)
+Description: 系统相机App简单优化，使用了一些PoomSmart的开源代码
+Maintainer: PoomSmart & SINI
+Author: PoomSmart & SINI
+Section: 系统增强
+Depends: mobilesubstrate (>= 0.9.5000)
+Icon: https://sini921.github.io/repo/sileodepiction/icon/pscamera.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/pscamera/js.json
+Architecture: iphoneos-arm64e
+Version: 0.0.1-5
+Installed-Size: 600
+Filename: ./debs/PSCamera(roothide)-0.0.1-5-iphoneos-arm64e.deb
+Size: 121704
+MD5sum: 203a46ae95d24c59ea9556d9caeb8ae5
+SHA1: 00d289053f8386e236d13d632cbc63faf869f369
+SHA256: 42f77686aed3be157274826087eab7ff87f7baf87e4174c7a2f048907c48be94
+SHA512: fd30d3d0d3c2669fa26aa62fd6cc7491c1543909ae2a2cf8460e399dc3e4acc24cf223080561136b134a083bf0791128eeda7e8498c60f401462b71172303109
+
+Package: com.sini921.quickpowerbutton
+Name: QuickPowerButton(roothide)
+Icon: https://sini921.github.io/repo/sileodepiction/icon/quickpowerbutton.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/quickpowerbutton/js.json
+Description: 在锁屏界面手电筒与相机中间添加一个快捷按钮，点击后弹出电源选项
+Maintainer: SINI
+Author: SINI
+Section: 系统增强
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 0.0.1-39
+Installed-Size: 600
+Filename: ./debs/QuickPowerButton(roothide)-0.0.1-39-iphoneos-arm64e.deb
+Size: 89190
+MD5sum: 3af01b647477d00a9236a1e74a58a15b
+SHA1: e624fd8ec36cbb5146bed5e6e76296cbab310899
+SHA256: c8e6c5caa0152e347f07af8244e0311c373adc3aff7afd8bbb1168c285dd8337
+SHA512: dd996e5411f1cf42407984128d76f6ac833d13afd67a65614c99f7c200953a3140c37a68681ac8f9bdbed755389b1e9efc8ca0212191c3da69c6b231551a05dc
+
+Package: com.sini.singlevpn
+Icon: https://sini921.github.io/repo/sileodepiction/icon/singlevpn.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/singlevpn/js.json
+Name: Single VPN(roothide)
+Description: 将 VPN 状态和无线状态合并到一个图标中。
+Maintainer: 82Flex <82flex@gmail.com>
+Author: 82Flex <82flex@gmail.com>
+Section: 系统增强
+Depends: firmware (>= 14.0), mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 2.1-2
+Installed-Size: 420
+Filename: ./debs/Single VPN(roothide)-2.1-2-iphoneos-arm64e.deb
+Size: 35252
+MD5sum: ae046c1525b999089cce58eb6832cf87
+SHA1: bdd5f30eab5c91e23fea64d42de02af82b24e783
+SHA256: 6d887bb1e98db2032790f6713f6fd9f7de65ec720a9e06ce73afc07ed17b7211
+SHA512: aebc3d46e23faa884f9c36ecf163f73a8360ff83a23320f35bad145045662adc49b64184e419d4b481c676cd7ac982f949b34991882a628de5eaf6301c04c030
+
+Package: com.sini921.zoomanimation
+Name: ZoomAnimation(roothide)
+Icon: https://sini921.github.io/repo/sileodepiction/icon/zoomanimation.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/zoomanimation/js.json
+Description: 桌面动画，可选动画样式，调节动画幅度。
+Maintainer: SINI
+Author: SINI
+Section: 系统增强
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 0.0.1-13
+Installed-Size: 472
+Filename: ./debs/ZoomAnimation(roothide)-0.0.1-13-iphoneos-arm64e.deb
+Size: 58364
+MD5sum: 1c05d63c0de09a6c0a2ab4b35cda6472
+SHA1: 517eca23ec89285819ab5273e03c06df08fc4b5b
+SHA256: 910def24e7bcfa271fd4deef1bf7424a3550a81efe48c4a79ccc5351eef2b265
+SHA512: 3794e87ab943b41fd6b08cfc028487f0c0af9ba015535c14640fd1add6b5ccfc9f3fe95b3d29ca43de514f79a0734e0f506cf556e2ef02b03e914472dd7b5402
+
 Package: com.be-huge.floating-view
 Name: floatingView
 Description: 分屏，不必太复杂，一切从简即可。
 Maintainer: be-huge
 Author: be-huge
-Section: Tweaks
+Section: 分屏-需授权
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
 Architecture: iphoneos-arm64e
 Version: 1.6.0-1
