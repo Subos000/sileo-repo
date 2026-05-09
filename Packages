@@ -2,7 +2,7 @@ Package: com.wkk.appdata.iosdump
 Name: AppData
 Version: 2.0.1
 Description: 修复ios17+上的选择应用版本降级时导致SpringBoard崩溃问题，修复其它小问题并优化修改图标逻辑以及添加长按应用图标禁用应用通知，说明：单击应用图标可修改图标，长按可禁用通知，恢复再次长按即可，恢复通知可能会有些许延迟，已在ios14.3、15.4、16.4.1、17.0，测试并且所有修改仅在SpringBoard层面生效。
-Section: 系统增强
+Section: Tweaks
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Conflicts:com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
 Architecture: iphoneos-arm64e
@@ -22,7 +22,7 @@ Name: CCBorder(roothide)
 Description: 控制中心调整，基于开源修改编译，去掉了AlderisColorPicker依赖
 Maintainer: fiore & p2kdev & SINI
 Author: fiore & p2kdev & SINI
-Section: 系统增强
+Section: 控制中心
 Depends: mobilesubstrate, firmware (>= 16.0)
 Icon: https://sini921.github.io/repo/sileodepiction/icon/ccborder.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccborder/js.json
@@ -43,7 +43,7 @@ Architecture: iphoneos-arm64e
 Description: 超级控制中心模块集合！
 Maintainer: 妖刀
 Author: 妖刀
-Section: 系统增强
+Section: 嗨-工具
 Version: 2.1.0.1
 Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.roothide.cc, com.hk.rootless.cc
 SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
@@ -61,7 +61,7 @@ Name: Folder4x4
 Description: 4x4的文件夹布局/隐藏打开后的文件夹背景/打开文件夹内app自动关闭文件夹/调整打开后文件夹布局整体为中心/修复springboard奔溃后文件夹图标剩9个/配合源里文件夹阴影使用将springboard占用压榨到最低。
 Maintainer: wkk
 Author: wkk
-Section: 系统增强
+Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm64e
 Version: 1.2-8
@@ -77,7 +77,7 @@ SHA512: aecaad204d43af979800e403b17b6b42888e2ac6e753307da5d894b7a8c7487f963ca72c
 
 Package: com.hidenotificationbadge
 Version: 0.0.1
-Section: 系统增强
+Section: 插件
 Maintainer: wkk
 Architecture: iphoneos-arm64e
 Installed-Size: 168
@@ -99,7 +99,7 @@ Name: MilkyWayReborn(RootHide)
 Description: 窗口化多任务，也就是分屏；无设置，后台界面，按住程序卡片2秒，即可将此程序窗口化/分屏；由 akusio 基于 MilkyWay2 现代化重写；34306 优化适用于 iOS17–18 和 26。
 Maintainer: MilkyWay Reborn
 Author: MilkyWay Reborn
-Section: 系统增强
+Section: 海-系统
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.milkyway.reborn
 SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/milkyway/js.json
@@ -118,7 +118,7 @@ Name: PSCamera(roothide)
 Description: 系统相机App简单优化，使用了一些PoomSmart的开源代码
 Maintainer: PoomSmart & SINI
 Author: PoomSmart & SINI
-Section: 系统增强
+Section: 越狱插件
 Depends: mobilesubstrate (>= 0.9.5000)
 Icon: https://sini921.github.io/repo/sileodepiction/icon/pscamera.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/pscamera/js.json
@@ -139,7 +139,7 @@ Sileodepiction: https://sini921.github.io/repo/sileodepiction/quickpowerbutton/j
 Description: 在锁屏界面手电筒与相机中间添加一个快捷按钮，点击后弹出电源选项
 Maintainer: SINI
 Author: SINI
-Section: 系统增强
+Section: 越狱插件
 Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm64e
 Version: 0.0.1-39
@@ -158,7 +158,7 @@ Name: Single VPN(roothide)
 Description: 将 VPN 状态和无线状态合并到一个图标中。
 Maintainer: 82Flex <82flex@gmail.com>
 Author: 82Flex <82flex@gmail.com>
-Section: 系统增强
+Section: 越狱插件
 Depends: firmware (>= 14.0), mobilesubstrate
 Architecture: iphoneos-arm64e
 Version: 2.1-2
@@ -177,7 +177,7 @@ Sileodepiction: https://sini921.github.io/repo/sileodepiction/zoomanimation/js.j
 Description: 桌面动画，可选动画样式，调节动画幅度。
 Maintainer: SINI
 Author: SINI
-Section: 系统增强
+Section: 越狱插件
 Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm64e
 Version: 0.0.1-13
@@ -211,7 +211,7 @@ Name: Chatgpt
 Description: 可以在低系统用 chagpt
 Maintainer: Leaf
 Author: Leaf
-Section: duck-app
+Section: Utilities
 Architecture: iphoneos-arm64e
 Version: 1.1.1
 Installed-Size: 600
@@ -227,7 +227,7 @@ Name: floatingView
 Description: 分屏，不必太复杂，一切从简即可。
 Maintainer: be-huge
 Author: be-huge
-Section: 分屏-需付费
+Section: Tweaks
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
 Architecture: iphoneos-arm64e
 Version: 1.6.0-1
