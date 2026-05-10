@@ -169,25 +169,6 @@ SHA1: 517eca23ec89285819ab5273e03c06df08fc4b5b
 SHA256: 910def24e7bcfa271fd4deef1bf7424a3550a81efe48c4a79ccc5351eef2b265
 SHA512: 3794e87ab943b41fd6b08cfc028487f0c0af9ba015535c14640fd1add6b5ccfc9f3fe95b3d29ca43de514f79a0734e0f506cf556e2ef02b03e914472dd7b5402
 
-Package: com.duck.ccless
-Name: CCLess++(RootHide)
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Architecture: iphoneos-arm64e
-Description: 超级控制中心模块集合！
-Maintainer: 妖刀
-Author: 妖刀
-Section: 嗨-工具
-Version: 2.1.0.1
-Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.roothide.cc, com.hk.rootless.cc
-Pre-Depends: rootless-compat(>= 0.9)
-
-Filename: ./debs/com.duck.ccless_2.1.0.1_iphoneos-arm64e.deb
-Size: 498140
-MD5sum: 5defc24140e32c2456d52cfecbedb74c
-SHA1: 9bd79a252a65df989160dac43f0dcd41e14b5627
-SHA256: 2fb458dc91552b7afabdca361b9db0cb1571d9472afb34a8aaa0ada5d83ab051
-SHA512: 0ef218f264ebd67ec9ad7dde5c3060e7f8df3606f782d9d5480710e964c97f7285ff8a69124d7c0ade94241a423b6415258362f6399d6c3e791f1ace007c7d02
-
 Package: com.duck.qis
 Version: 5.2.0
 Section: dylib
@@ -204,6 +185,24 @@ MD5sum: c4b31618e77efe446b4e3fecd15595e4
 SHA1: b4e44739bbcea7d94a0118b99a25b4752e3dd56c
 SHA256: cd425598e416c79a203cfe38f5a7ff43699604544480ab65e41bb128f2ac6b30
 SHA512: a617d566696832201eb43d6cc721054871d50dbc76e055222b1445c797fb72e19e0a87b458a205c9679317ef6e2c91f7583578ff48d3126211db3aa1adc0ee0e
+
+Package: com.duck.roothide.cc
+Section: 嗨-工具
+Maintainer: 妖刀
+Architecture: iphoneos-arm64e
+Version: 2.1
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Pre-Depends: rootless-compat (>= 0.9)
+Description: 超级控制中心模块集合！
+Name: CCLess++(RootHide)
+Author: 妖刀
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
+Filename: ./debs/com.duck.roothide.cc_2.1_iphoneos-arm64e.deb
+Size: 498368
+MD5sum: 3e6e15e3641d2ba52acc61baf13ffbf4
+SHA1: 2ff4c9fb2b5ba4f0f9ece73d06d29fbb2662c596
+SHA256: 059fc29305c16592471d6cc7c6f8f19619b0abb2bc11794e6e33c3b10778bf5a
+SHA512: 0cd45884ef3053af03ba9b807e60fceedf7d3616be94e29958ce8493def775d23ac3fa272fa37b4787fc71687138265d06a3c187183616ed4bf358848beb501d
 
 Package: com.leaf.apps
 Name: Chatgpt

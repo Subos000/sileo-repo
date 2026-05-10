@@ -5,13 +5,13 @@ Codename: ios
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: duck's Sileo jailbreak repository
-Date: Sat, 09 May 2026 22:15:30 +0800
+Date: Sun, 10 May 2026 03:50:26 +0800
 MD5Sum:
- b00eb9134edee39d435aa8199141905b 12551 Packages
- 55401604c6588fa184cc3e537a83f110 5710 Packages.gz
+ 23d2c55717e9c91dca986e4351600e32 11878 Packages
+ 27f3cf7cfa40d9f99280fcd54ba73a58 5400 Packages.gz
 SHA1:
- ff2749863382f8c2e8285d0d52ef33bd4e725d78 12551 Packages
- 73e0057969cf2bf730d7b5236e0c9a1acd92ff5d 5710 Packages.gz
+ c111f2b09a5fd9dc38d0477ee8b98d7a67ff668e 11878 Packages
+ e57d9c03ebdb2ca550c10ec312af84093244f8b0 5400 Packages.gz
 SHA256:
- 5036e2457ba1348223950a1e8e89c069f15c7db6fe9fe8906e168c902832c291 12551 Packages
- 5152ec0650d383a2f8c52397dca1abb7f716ebf8711ce8f76d83940bc29079d7 5710 Packages.gz
+ bc72b4b3a2b09065f5615ce46f5529edee0feb8f60e8e5c39fb9625d2bf0d157 11878 Packages
+ 510221dd023671cc1ad2fadd2264aa3674b82f84fc78721329b3ca28ef910387 5400 Packages.gz
