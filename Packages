@@ -93,6 +93,25 @@ SHA1: a5eeeedadfcdb32631313f2a481786d0651a8aac
 SHA256: f65bd22b00c88965170a197e3ca441b2e87a00fc33b91a53ad4046c2653f7e27
 SHA512: 80b3a85041939a1bf7915328fc685aad7d33df3281981588b4bedab705396e30b654b0e305024d4727fc54412e093648e81e57c52908af664410d49a3be004a3
 
+Package: com.dao.milkywayreborn
+Name: MilkyWayReborn(RootHide)
+Description: 窗口化多任务，也就是分屏；无设置，后台界面，按住程序卡片2秒，即可将此程序窗口化/分屏；由 akusio 基于 MilkyWay2 现代化重写；34306 优化适用于 iOS17–18 和 26。
+Maintainer: MilkyWay Reborn
+Author: MilkyWay Reborn
+Section: 海-系统
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.milkyway.reborn
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/milkyway/js.json
+Architecture: iphoneos-arm64e
+Version: 1.2
+Installed-Size: 308
+Filename: ./debs/MilkyWayReborn(RootHide)-1.2-iphoneos-arm64e.deb
+Size: 47300
+MD5sum: ed53e2f611e5d3eabae9c9d0c987385d
+SHA1: 61fa8f284c586e9bb8010e01055cf993b46941c9
+SHA256: c46226252a88a91c7bb85e3dedabeab5c8a116b01166b9384383504b611a0a46
+SHA512: b4940058624d1e9eb50987a3040c1d6dadabea47a520afff9b742e1d3a9a0241ee757694778fb26a90caf22836cd8adf292d9479a746ae685e68e809bbd7a78b
+
 Package: com.sini921.pscamera
 Name: PSCamera(roothide)
 Description: 系统相机App简单优化，使用了一些PoomSmart的开源代码
@@ -239,6 +258,86 @@ MD5sum: edee521f78341f8ed04bcb06c6ee65ee
 SHA1: 8f3f9ed0b47a22c5141c0ddabdfd598db828fa10
 SHA256: c6b4edb9cc70663c59d3545ada67f6dd83d4bdb9cac5520df27bcc63a1cc9d78
 SHA512: 0c7fb42c0fc3dd99f904fd20a0ebc791b3d069555e21a79c1357d9822d15db5eaca64a99f268d40e4063a391ea4552ac5c67bd4ed099919de3082501fc543466
+
+Package: com.be-huge.floating-view
+Name: floatingView
+Description: 分屏，不必太复杂，一切从简即可。
+Maintainer: be-huge
+Author: be-huge
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64e
+Version: 1.6.0-2
+Installed-Size: 2692
+Icon: https://s1.imagehub.cc/images/2025/01/11/a6ee9b7d3555d062c59b68c2c71c7406.png
+SileoDepiction:https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/floatingView.json
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/floatingView-1.6.0-2-iphoneos-arm64e.deb
+Size: 1797482
+MD5sum: 0bf84415a2520ee2b0073e2f9fb569fc
+SHA1: 60a16fc8270271efd8a2b49fd63631934b9b92f8
+SHA256: 291a33627b9cb1d76ea2481679e317103cb515859bf8e3247306d2275bb10be2
+SHA512: 1965c34696222aced719e0c196adeb267d50cbeb8dafe01f3e78bb923227151e4b6c37fe15c7eee7f7cbbfec000e1376a984dc80a69c17849805196b9792b701
+
+Package: com.be-huge.floating-view
+Name: floatingView
+Description: 分屏，不必太复杂，一切从简即可。
+Maintainer: be-huge
+Author: be-huge
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64e
+Version: 1.6.0-3
+Installed-Size: 2692
+Icon: https://s1.imagehub.cc/images/2025/01/11/a6ee9b7d3555d062c59b68c2c71c7406.png
+SileoDepiction:https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/floatingView.json
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/floatingView-1.6.0-3-iphoneos-arm64e.deb
+Size: 1799406
+MD5sum: fe4901158fc635afa8c7fd9b62ec6470
+SHA1: 9a25e484df609b930a53163e4b6469d833cd2259
+SHA256: 42f4ea7f5bad92b23738e1efcf9351d254f437c7be3880de9aaa97c4d0008274
+SHA512: 3d169cc31ee7addc19eddb1ac1f89e363d7d6b4b521d14a3375b76a70891f72739cde7826a5200974bc14306239a91ade31332ab8c32337bc689c36dc2511f83
+
+Package: com.be-huge.floating-view
+Name: floatingView
+Description: 分屏，不必太复杂，一切从简即可。
+Maintainer: be-huge
+Author: be-huge
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64e
+Version: 1.6.0-4
+Installed-Size: 2692
+Icon: https://s1.imagehub.cc/images/2025/01/11/a6ee9b7d3555d062c59b68c2c71c7406.png
+SileoDepiction:https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/floatingView.json
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/floatingView-1.6.0-4-iphoneos-arm64e.deb
+Size: 1795020
+MD5sum: 9c8b7719d9bc3ecfe119139dafdc0903
+SHA1: f40cb5254750e07890d055710651f81f8bf48ec5
+SHA256: a8f56f0e6272ac6b45e4bb97ad74cd382a6e71ecd6f27f16a7f095031f541fc5
+SHA512: 38757c136b877b9ca057ad920e8678de64848c28f921b4f87da8180c142785227b2d51e7a27e7c3d976bb6b9a8bda711dd224fd39dfda39825a93e65fa85ba6f
+
+Package: com.be-huge.floating-view
+Name: floatingView
+Description: 分屏，不必太复杂，一切从简即可。
+Maintainer: be-huge
+Author: be-huge
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64e
+Version: 1.6.0-5
+Installed-Size: 2692
+Icon: https://s1.imagehub.cc/images/2025/01/11/a6ee9b7d3555d062c59b68c2c71c7406.png
+SileoDepiction:https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/floatingView.json
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/floatingView-1.6.0-5-iphoneos-arm64e.deb
+Size: 1801316
+MD5sum: f2aaffc4830162f9376f8a2e46563375
+SHA1: bebaf57f8bd9beb45f32e1b2710870617cdb7a82
+SHA256: 109fe7bc9e2e43b856a0b0be1854b3ca821af5efddcbe0a0c3be8d0e3e5a25fb
+SHA512: f52c12d9054903144fbadd90b17f5fb92c501a004bcecae286f2605428054e17b629a5269bd0e43ca0c13410ca2ce43d7d2895f80bcbd90cff795914623f8a20
 
 Package: com.wkk.gaodehook
 Name: 高德地图NoAds
