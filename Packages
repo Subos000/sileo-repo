@@ -17,6 +17,7 @@ SHA1: fcb04b2376e176f1194c7de0a1aa09b04044aa06
 SHA256: d8b6bf7829c81bd4b81b7d747d64d2a88024750b54cb2c95b8bdc34e78c8e273
 SHA512: d8322811589aa204f56b0e41457391e45a31de9110e74ce681bcbc0688507f598bafeaaab589ea3182af31ae158ce9f0cf8de20abfab40cfeeaacce2f73558bb
 
+
 Package: com.sini921.ccborder
 Name: CCBorder(roothide)
 Description: 控制中心调整，基于开源修改编译，去掉了AlderisColorPicker依赖
@@ -35,6 +36,28 @@ MD5sum: 147e010f756f089e90060fd701262708
 SHA1: bb5c97e42618230cbff3736981d87e5afe325c90
 SHA256: d51be8d0bd3b6eb6ed4c6542834a05c7f7ccf529b8ce32db1a5387501515e11b
 SHA512: 216a965bdccf437b79772408efbe0b8313d58af8259cc52e5f48ec21aa741608866fb1dd527286b2ac862ae2d6754b37641aaa073b51b2787f02bdea0e64383f
+
+
+Package: com.wkk.crane
+Name: Crane
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.5), com.opa334.libsandy (>=1.1.6), com.opa334.libundirect (>=1.1.4) | firmware (<<14.0)
+Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Description: 正版砸壳备份。
+Maintainer: opa334
+Author: opa334
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.3.17
+icon: https://sini921.github.io/repo/sileodepiction/icon/crane.png
+Installed-Size: 3252
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/Crane-1.3.17-iphoneos-arm64e.deb
+Size: 1560128
+MD5sum: 7a2a01ff796f443ff32b39b30f4a11a0
+SHA1: f066e206db63781a77e3ad72291865f6f6d038b2
+SHA256: c2afc7aad6afa5fdcb5b4fdd00ed05381e272151fa5088c9e7efbd14f8b46b20
+SHA512: 68408b439608cbe0391c972944601fc8141782665ee888b72c80a65a736f80e50fe3bcc82b1dd3c810d259a0b909b2604a093ce5f5d2f7f80cd5c89c2eb11bf2
+
 
 Package: com.wkk.folder4
 Name: Folder4x4
@@ -55,6 +78,7 @@ SHA1: d375a5cb4fc0de971e9944687ded695b72345414
 SHA256: 7b509e845af9ab4144d762b5650e7fa2ecc23536a503f5c58a8d171c412d1330
 SHA512: aecaad204d43af979800e403b17b6b42888e2ac6e753307da5d894b7a8c7487f963ca72cb808db3b7665909dc9635629c3e968ef20f154f1647e676f0925938e
 
+
 Package: com.hidenotificationbadge
 Version: 0.0.1
 Section: 插件
@@ -73,6 +97,7 @@ MD5sum: 7edf5b3378ced2f24f811ba96a98a096
 SHA1: d79a679fe1a00d319d1df08d1591fa61abb8223d
 SHA256: eef31ff4723b7b8dc088078fad9c02e1115eb4c9a03ce0a4770083cbd47f0bed
 SHA512: e366e1d62abfa15ef726db4cd7db3574e7ecafc6705fd7a60adf3a1a1bf1b30179d13c5ef814d6ab4fba73df1ac63a6b053220cf1933d68569a6e252cee1efb7
+
 
 Package: com.dao.milkywayreborn
 Name: MilkyWayReborn(RootHide)
@@ -93,6 +118,7 @@ SHA1: a5eeeedadfcdb32631313f2a481786d0651a8aac
 SHA256: f65bd22b00c88965170a197e3ca441b2e87a00fc33b91a53ad4046c2653f7e27
 SHA512: 80b3a85041939a1bf7915328fc685aad7d33df3281981588b4bedab705396e30b654b0e305024d4727fc54412e093648e81e57c52908af664410d49a3be004a3
 
+
 Package: com.dao.milkywayreborn
 Name: MilkyWayReborn(RootHide)
 Description: 窗口化多任务，也就是分屏；无设置，后台界面，按住程序卡片2秒，即可将此程序窗口化/分屏；由 akusio 基于 MilkyWay2 现代化重写；34306 优化适用于 iOS17–18 和 26。
@@ -111,6 +137,7 @@ MD5sum: ed53e2f611e5d3eabae9c9d0c987385d
 SHA1: 61fa8f284c586e9bb8010e01055cf993b46941c9
 SHA256: c46226252a88a91c7bb85e3dedabeab5c8a116b01166b9384383504b611a0a46
 SHA512: b4940058624d1e9eb50987a3040c1d6dadabea47a520afff9b742e1d3a9a0241ee757694778fb26a90caf22836cd8adf292d9479a746ae685e68e809bbd7a78b
+
 
 Package: com.sini921.pscamera
 Name: PSCamera(roothide)
@@ -131,6 +158,7 @@ SHA1: 00d289053f8386e236d13d632cbc63faf869f369
 SHA256: 42f77686aed3be157274826087eab7ff87f7baf87e4174c7a2f048907c48be94
 SHA512: fd30d3d0d3c2669fa26aa62fd6cc7491c1543909ae2a2cf8460e399dc3e4acc24cf223080561136b134a083bf0791128eeda7e8498c60f401462b71172303109
 
+
 Package: com.sini921.quickpowerbutton
 Name: QuickPowerButton(roothide)
 Icon: https://sini921.github.io/repo/sileodepiction/icon/quickpowerbutton.png
@@ -149,6 +177,7 @@ MD5sum: 3af01b647477d00a9236a1e74a58a15b
 SHA1: e624fd8ec36cbb5146bed5e6e76296cbab310899
 SHA256: c8e6c5caa0152e347f07af8244e0311c373adc3aff7afd8bbb1168c285dd8337
 SHA512: dd996e5411f1cf42407984128d76f6ac833d13afd67a65614c99f7c200953a3140c37a68681ac8f9bdbed755389b1e9efc8ca0212191c3da69c6b231551a05dc
+
 
 Package: com.sini.singlevpn
 Icon: https://sini921.github.io/repo/sileodepiction/icon/singlevpn.png
@@ -188,15 +217,6 @@ SHA1: 517eca23ec89285819ab5273e03c06df08fc4b5b
 SHA256: 910def24e7bcfa271fd4deef1bf7424a3550a81efe48c4a79ccc5351eef2b265
 SHA512: 3794e87ab943b41fd6b08cfc028487f0c0af9ba015535c14640fd1add6b5ccfc9f3fe95b3d29ca43de514f79a0734e0f506cf556e2ef02b03e914472dd7b5402
 
-Package: com.duck.qis
-Version: 5.2.0
-Section: dylib
-Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
-Architecture: iphoneos-arm64e
-Name: 汽水去广告（TrollFools注入）
-Author: duck
-Maintainer: duck
-Description: 使用巨魔注入器即可使用
 
 Filename: ./debs/com.duck.qis_5.2.0_iphoneos-arm64e.deb
 Size: 54416
@@ -204,6 +224,7 @@ MD5sum: c4b31618e77efe446b4e3fecd15595e4
 SHA1: b4e44739bbcea7d94a0118b99a25b4752e3dd56c
 SHA256: cd425598e416c79a203cfe38f5a7ff43699604544480ab65e41bb128f2ac6b30
 SHA512: a617d566696832201eb43d6cc721054871d50dbc76e055222b1445c797fb72e19e0a87b458a205c9679317ef6e2c91f7583578ff48d3126211db3aa1adc0ee0e
+
 
 Package: com.duck.roothide.cc
 Section: 嗨-工具
@@ -223,6 +244,7 @@ SHA1: 2ff4c9fb2b5ba4f0f9ece73d06d29fbb2662c596
 SHA256: 059fc29305c16592471d6cc7c6f8f19619b0abb2bc11794e6e33c3b10778bf5a
 SHA512: 0cd45884ef3053af03ba9b807e60fceedf7d3616be94e29958ce8493def775d23ac3fa272fa37b4787fc71687138265d06a3c187183616ed4bf358848beb501d
 
+
 Package: com.leaf.apps
 Name: Chatgpt
 Description: 可以在低系统用 chagpt
@@ -238,6 +260,7 @@ MD5sum: 96f25532d980a4d71fcb991b25ba3275
 SHA1: 8ec84fc700f1bfce1bd05b3cb701a94d3a5058b8
 SHA256: f1847e2b7d4a640e6b442cf8fb3dfe36c96e3912a1294f0bf8614efbbeee0c47
 SHA512: e001cb723c63854fa0f51f912f1a59333afe831ce9d08430c079b8a5dbb3a8ccc9c99259e7dde7d15959641ad606bf25b654976f3083f474f5ad0257b0be06fb
+
 
 Package: com.be-huge.floating-view
 Name: floatingView
@@ -259,6 +282,7 @@ SHA1: 8f3f9ed0b47a22c5141c0ddabdfd598db828fa10
 SHA256: c6b4edb9cc70663c59d3545ada67f6dd83d4bdb9cac5520df27bcc63a1cc9d78
 SHA512: 0c7fb42c0fc3dd99f904fd20a0ebc791b3d069555e21a79c1357d9822d15db5eaca64a99f268d40e4063a391ea4552ac5c67bd4ed099919de3082501fc543466
 
+
 Package: com.be-huge.floating-view
 Name: floatingView
 Description: 分屏，不必太复杂，一切从简即可。
@@ -278,6 +302,7 @@ MD5sum: 0bf84415a2520ee2b0073e2f9fb569fc
 SHA1: 60a16fc8270271efd8a2b49fd63631934b9b92f8
 SHA256: 291a33627b9cb1d76ea2481679e317103cb515859bf8e3247306d2275bb10be2
 SHA512: 1965c34696222aced719e0c196adeb267d50cbeb8dafe01f3e78bb923227151e4b6c37fe15c7eee7f7cbbfec000e1376a984dc80a69c17849805196b9792b701
+
 
 Package: com.be-huge.floating-view
 Name: floatingView
@@ -299,6 +324,7 @@ SHA1: 9a25e484df609b930a53163e4b6469d833cd2259
 SHA256: 42f4ea7f5bad92b23738e1efcf9351d254f437c7be3880de9aaa97c4d0008274
 SHA512: 3d169cc31ee7addc19eddb1ac1f89e363d7d6b4b521d14a3375b76a70891f72739cde7826a5200974bc14306239a91ade31332ab8c32337bc689c36dc2511f83
 
+
 Package: com.be-huge.floating-view
 Name: floatingView
 Description: 分屏，不必太复杂，一切从简即可。
@@ -318,6 +344,7 @@ MD5sum: 9c8b7719d9bc3ecfe119139dafdc0903
 SHA1: f40cb5254750e07890d055710651f81f8bf48ec5
 SHA256: a8f56f0e6272ac6b45e4bb97ad74cd382a6e71ecd6f27f16a7f095031f541fc5
 SHA512: 38757c136b877b9ca057ad920e8678de64848c28f921b4f87da8180c142785227b2d51e7a27e7c3d976bb6b9a8bda711dd224fd39dfda39825a93e65fa85ba6f
+
 
 Package: com.be-huge.floating-view
 Name: floatingView
@@ -339,6 +366,27 @@ SHA1: bebaf57f8bd9beb45f32e1b2710870617cdb7a82
 SHA256: 109fe7bc9e2e43b856a0b0be1854b3ca821af5efddcbe0a0c3be8d0e3e5a25fb
 SHA512: f52c12d9054903144fbadd90b17f5fb92c501a004bcecae286f2605428054e17b629a5269bd0e43ca0c13410ca2ce43d7d2895f80bcbd90cff795914623f8a20
 
+
+Package: com.be-huge.floating-view
+Name: floatingView
+Description: 分屏，不必太复杂，一切从简即可。
+Maintainer: be-huge
+Author: be-huge
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64e
+Version: 1.6.0-6
+Installed-Size: 2692
+Icon: https://s1.imagehub.cc/images/2025/01/11/a6ee9b7d3555d062c59b68c2c71c7406.png
+SileoDepiction:https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/floatingView.json
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/floatingView-1.6.0-6-iphoneos-arm64e.deb
+Size: 1795960
+MD5sum: d59b9cbd5661a6cdaeb60ed38d1b7f4f
+SHA1: 53748fa13d3fb2ec126c5ff0c2c289431af574cb
+SHA256: ca5075a98794d8d8e49cbf84ac5d206fbadc891c030937f344f42138e1ab3845
+SHA512: de0a6f15b4aa2f06cce1aae20d3dee63fc0fe6c0d628f0a9285f5074242ec6473812729e1706b1b9c126efd435ff10a105073390736ce4378723d58665286397
+
 Package: com.wkk.gaodehook
 Name: 高德地图NoAds
 Description: 去开屏/首页顶部/部分豆腐块广告/去升级提示/去一些弹窗，测试版本：16.10.6
@@ -357,4 +405,5 @@ MD5sum: 8d11afe1c4b6248fd58043d5e63c0aef
 SHA1: f25d09bd389aee062a06744b4b7118210dbd0c68
 SHA256: d339947a3ee3ccf86c58411f95937a88c01c7a8518812180104c1e25005da984
 SHA512: f95e9a1d333cc22926c5f3705b90982a63355452be8e768cdde4fe70c7484a3219d81fc9edaa48038229e3f155c445162f42d3dd8329d5cbb40c844b5fbb4759
+
 
