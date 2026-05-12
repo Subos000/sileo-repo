@@ -1,5 +1,6 @@
 ./debs/AppData-2.0.1-iphoneos-arm64e.deb d7b5215584d443fac69ef364ca302024
 ./debs/CCBorder(roothide)-1.1.2-42-iphoneos-arm64e.deb 147e010f756f089e90060fd701262708
+./debs/CopyVault(激活码版)-1.9.0-iphoneos-arm64e.deb 28714525eeb38495089d5989142edee0
 ./debs/Crane-1.3.17-iphoneos-arm64e.deb 7a2a01ff796f443ff32b39b30f4a11a0
 ./debs/Folder4x4-1.2-8-iphoneos-arm64e.deb 99e31f4d2b33952d3512ee04a00fd06f
 ./debs/HideNotificationBadge-0.0.1-iphoneos-arm64e.deb 7edf5b3378ced2f24f811ba96a98a096
@@ -9,9 +10,13 @@
 ./debs/QuickPowerButton(roothide)-0.0.1-39-iphoneos-arm64e.deb 3af01b647477d00a9236a1e74a58a15b
 ./debs/Single VPN(roothide)-2.1-2-iphoneos-arm64e.deb ae046c1525b999089cce58eb6832cf87
 ./debs/ZoomAnimation(roothide)-0.0.1-13-iphoneos-arm64e.deb 1c05d63c0de09a6c0a2ab4b35cda6472
+./debs/cn.octoforce.squidextender_3.7.4_iphoneos-arm64e.deb d2921806fad16b3ff1c15ffaf7176b15
 ./debs/com.duck.qis_5.2.0_iphoneos-arm64e.deb c4b31618e77efe446b4e3fecd15595e4
 ./debs/com.duck.roothide.cc_2.1_iphoneos-arm64e.deb 3e6e15e3641d2ba52acc61baf13ffbf4
+./debs/com.dy.tweak_5.2.0_iphoneos-arm64e.deb ea21d4b95fd024bb0c479a84ca385f7f
+./debs/com.iosdump.customcallbg_0.0.1_iphoneos-arm64e.deb 17428d7adebae39f07e3410f6d67fe04
 ./debs/com.leaf.apps_1.1.1_iphoneos-arm64e.deb 96f25532d980a4d71fcb991b25ba3275
+./debs/com.wc.tweak_5.2.0_iphoneos-arm64e.deb ce8c33233c4f0b09469ee535226271d0
 ./debs/floatingView-1.6.0-1-iphoneos-arm64e.deb edee521f78341f8ed04bcb06c6ee65ee
 ./debs/floatingView-1.6.0-2-iphoneos-arm64e.deb 0bf84415a2520ee2b0073e2f9fb569fc
 ./debs/floatingView-1.6.0-3-iphoneos-arm64e.deb fe4901158fc635afa8c7fd9b62ec6470
