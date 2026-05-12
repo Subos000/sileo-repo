@@ -330,14 +330,6 @@ SHA256: f1847e2b7d4a640e6b442cf8fb3dfe36c96e3912a1294f0bf8614efbbeee0c47
 SHA512: e001cb723c63854fa0f51f912f1a59333afe831ce9d08430c079b8a5dbb3a8ccc9c99259e7dde7d15959641ad606bf25b654976f3083f474f5ad0257b0be06fb
 
 
-Filename: ./debs/com.wc.tweak_5.2.0_iphoneos-arm64e.deb
-Size: 8848412
-MD5sum: ce8c33233c4f0b09469ee535226271d0
-SHA1: b4ef5c9386401a4d148f030e855a11ec3d1998bc
-SHA256: c2f4d13b9ce52b4bcb5c59d25b7aea50de6f124bb1b0594eb9983e2240f5f6d6
-SHA512: dea6218955ccd7edf53d0fe40ef840a4716ea5ef2a1e745bea376611c376bdce51438d6c8b706ad0eb6b9477e24d23188be29474da3e52cbea1d8d2b13ca6f24
-
-
 Package: com.be-huge.floating-view
 Name: floatingView
 Description: 分屏，不必太复杂，一切从简即可。
