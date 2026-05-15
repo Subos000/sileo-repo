@@ -1,3 +1,41 @@
+===CACHE_START===Cr4shed-4.3.2-iphoneos-arm64e.deb:1778818552:143648
+Package: com.muirey03.cr4shed
+Section: Tweaks
+Maintainer: Muirey03
+Architecture: iphoneos-arm64e
+Version: 4.3.2
+Depends: mobilesubstrate, firmware (>= 9.0), ws.hbang.common (>= 1.11), com.opa334.libsandy, ldid
+Pre-Depends: rootless-compat (>= 0.9)
+Description: 系统崩溃报告器
+Name: Cr4shed
+icon: https://www.susubaby.top/images/cr4shed.png
+Author: Muirey03
+Filename: ./debs/Cr4shed-4.3.2-iphoneos-arm64e.deb
+Size: 143648
+MD5sum: e5463b5c9f966c322a76773fc1c196e7
+SHA1: 2fd160a38637a88ef4a1213f6ecd2edbf6ab7e73
+SHA256: c7511eb60f09e9275081b7eb19382f82d71dde3a39b451eaa2e97fc5a3c9eb86
+SHA512: 51d9ae699710e1a1d3452a7bfddf4593b34a7d11d0a2eaeed177673dedb1a30cff53babc72a3ec77e64f3094d9ab3f22f7dc6ff8dd98339f4fa122597e61785b
+
+===CACHE_END===
+===CACHE_START===com.wc.tweak_5.2.0.1_iphoneos-arm64e.deb:1778818552:8827552
+Package: com.wc.tweak
+Version: 5.2.0.1
+Section: dylib
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Architecture: iphoneos-arm64e
+Name: 微信插件及配置（TrollFools注入）
+Author: duck
+Maintainer: duck
+Description: 使用巨魔注入器即可使用𓂸
+Filename: ./debs/com.wc.tweak_5.2.0.1_iphoneos-arm64e.deb
+Size: 8827552
+MD5sum: d8c82ae70d6bb54f227c64e99a1229d5
+SHA1: 953ca15076c701d45cecc78a88306d62200ef50b
+SHA256: 3d9ee3f8a58169fca08b03cc6af75c3be32ca05c61eebeddce53b07673ee211c
+SHA512: bb180c697dd79634f56f8871c7374d1b1ec29a3537264e7eb168ffbc02f2c7f7515768f0eaf4a31a94bceefd05965fb1b6d3239179ff3f7c086f511885d7fcca
+
+===CACHE_END===
 ===CACHE_START===Single VPN(roothide)-2.1-2-iphoneos-arm64e.deb:1778324928:35252
 Package: com.sini.singlevpn
 Icon: https://sini921.github.io/repo/sileodepiction/icon/singlevpn.png
@@ -41,6 +79,27 @@ SHA256: ca5075a98794d8d8e49cbf84ac5d206fbadc891c030937f344f42138e1ab3845
 SHA512: de0a6f15b4aa2f06cce1aae20d3dee63fc0fe6c0d628f0a9285f5074242ec6473812729e1706b1b9c126efd435ff10a105073390736ce4378723d58665286397
 
 ===CACHE_END===
+===CACHE_START===计算器添加历史-1.2-iphoneos-arm64e.deb:1778818552:1268
+Package: byg.iosios.net.calculatorhistory
+Section: 系统增强
+Maintainer: 搬运工
+Architecture: iphoneos-arm64e
+Version: 1.2
+Depends: mobilesubstrate
+Pre-Depends: rootless-compat (>= 0.9)
+Description: 让自带计算器可以查看历史计算过程和结果，非常不错的一款插件，大家可以试试！搬运工源，万古长青，永久免费，越狱必加！
+Name: 计算器添加历史
+Author: Donato Fiore
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+Filename: ./debs/计算器添加历史-1.2-iphoneos-arm64e.deb
+Size: 1268
+MD5sum: c47535721a4a17fb94a7497786ba0cc4
+SHA1: be624038b8b91afdfe0cf49200296436c203610f
+SHA256: 3e24627adc32b660f99a57fcd6a25f4faf50f994dfe7d21f79ab6434483c91e9
+SHA512: 0393e7b5ed3e9398d42e1db5c1afb0bd056d40664522edf435bb7f486b5b8c8e389131c596b099ad4be3b428d5fe6a817114e2ed8475786215719dd676cb3150
+
+===CACHE_END===
 ===CACHE_START===floatingView-1.6.0-1-iphoneos-arm64e.deb:1778324326:1796570
 Package: com.be-huge.floating-view
 Name: floatingView
@@ -82,6 +141,49 @@ MD5sum: 3af01b647477d00a9236a1e74a58a15b
 SHA1: e624fd8ec36cbb5146bed5e6e76296cbab310899
 SHA256: c8e6c5caa0152e347f07af8244e0311c373adc3aff7afd8bbb1168c285dd8337
 SHA512: dd996e5411f1cf42407984128d76f6ac833d13afd67a65614c99f7c200953a3140c37a68681ac8f9bdbed755389b1e9efc8ca0212191c3da69c6b231551a05dc
+
+===CACHE_END===
+===CACHE_START===QuickPowerButton(roothide)-0.0.1-39-iphoneos-arm64e.deb:1778818552:89190
+Package: com.sini921.quickpowerbutton
+Name: QuickPowerButton(roothide)
+Icon: https://sini921.github.io/repo/sileodepiction/icon/quickpowerbutton.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/quickpowerbutton/js.json
+Description: 在锁屏界面手电筒与相机中间添加一个快捷按钮，点击后弹出电源选项
+Maintainer: SINI
+Author: SINI
+Section: 越狱插件
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 0.0.1-39
+Installed-Size: 600
+Filename: ./debs/QuickPowerButton(roothide)-0.0.1-39-iphoneos-arm64e.deb
+Size: 89190
+MD5sum: 3af01b647477d00a9236a1e74a58a15b
+SHA1: e624fd8ec36cbb5146bed5e6e76296cbab310899
+SHA256: c8e6c5caa0152e347f07af8244e0311c373adc3aff7afd8bbb1168c285dd8337
+SHA512: dd996e5411f1cf42407984128d76f6ac833d13afd67a65614c99f7c200953a3140c37a68681ac8f9bdbed755389b1e9efc8ca0212191c3da69c6b231551a05dc
+
+===CACHE_END===
+===CACHE_START===Crane-1.3.17-iphoneos-arm64e.deb:1778818552:1560128
+Package: com.wkk.crane
+Name: Crane
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.5), com.opa334.libsandy (>=1.1.6), com.opa334.libundirect (>=1.1.4) | firmware (<<14.0)
+Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Description: 正版砸壳备份。
+Maintainer: opa334
+Author: opa334
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.3.17
+icon: https://sini921.github.io/repo/sileodepiction/icon/crane.png
+Installed-Size: 3252
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/Crane-1.3.17-iphoneos-arm64e.deb
+Size: 1560128
+MD5sum: 7a2a01ff796f443ff32b39b30f4a11a0
+SHA1: f066e206db63781a77e3ad72291865f6f6d038b2
+SHA256: c2afc7aad6afa5fdcb5b4fdd00ed05381e272151fa5088c9e7efbd14f8b46b20
+SHA512: 68408b439608cbe0391c972944601fc8141782665ee888b72c80a65a736f80e50fe3bcc82b1dd3c810d259a0b909b2604a093ce5f5d2f7f80cd5c89c2eb11bf2
 
 ===CACHE_END===
 ===CACHE_START===HideNotificationBadge-0.0.1-iphoneos-arm64e.deb:1778333575:4122
@@ -165,6 +267,48 @@ SHA256: d51be8d0bd3b6eb6ed4c6542834a05c7f7ccf529b8ce32db1a5387501515e11b
 SHA512: 216a965bdccf437b79772408efbe0b8313d58af8259cc52e5f48ec21aa741608866fb1dd527286b2ac862ae2d6754b37641aaa073b51b2787f02bdea0e64383f
 
 ===CACHE_END===
+===CACHE_START===HideNotificationBadge-0.0.1-iphoneos-arm64e.deb:1778818552:4122
+Package: com.hidenotificationbadge
+Version: 0.0.1
+Section: 插件
+Maintainer: wkk
+Architecture: iphoneos-arm64e
+Installed-Size: 168
+Name: HideNotificationBadge
+Author: SquidForce
+Sponsor: wkk
+Icon: https://s1.imagehub.cc/images/2025/01/07/6ef6711ca9293ce5daa41999cd7491a4.jpeg
+Description: 隐藏通知图标中右下角标。
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/HideNotificationBadge-0.0.1-iphoneos-arm64e.deb
+Size: 4122
+MD5sum: 7edf5b3378ced2f24f811ba96a98a096
+SHA1: d79a679fe1a00d319d1df08d1591fa61abb8223d
+SHA256: eef31ff4723b7b8dc088078fad9c02e1115eb4c9a03ce0a4770083cbd47f0bed
+SHA512: e366e1d62abfa15ef726db4cd7db3574e7ecafc6705fd7a60adf3a1a1bf1b30179d13c5ef814d6ab4fba73df1ac63a6b053220cf1933d68569a6e252cee1efb7
+
+===CACHE_END===
+===CACHE_START===AppData-2.0.1-iphoneos-arm64e.deb:1778818552:318958
+Package: com.wkk.appdata.iosdump
+Name: AppData
+Version: 2.0.1
+Description: 修复ios17+上的选择应用版本降级时导致SpringBoard崩溃问题，修复其它小问题并优化修改图标逻辑以及添加长按应用图标禁用应用通知，说明：单击应用图标可修改图标，长按可禁用通知，恢复再次长按即可，恢复通知可能会有些许延迟，已在ios14.3、15.4、16.4.1、17.0，测试并且所有修改仅在SpringBoard层面生效。
+Section: Tweaks
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts:com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Architecture: iphoneos-arm64e
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Author: Fouad Raheb
+Maintainer: iosdump
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/AppData-2.0.1-iphoneos-arm64e.deb
+Size: 318958
+MD5sum: d7b5215584d443fac69ef364ca302024
+SHA1: fcb04b2376e176f1194c7de0a1aa09b04044aa06
+SHA256: d8b6bf7829c81bd4b81b7d747d64d2a88024750b54cb2c95b8bdc34e78c8e273
+SHA512: d8322811589aa204f56b0e41457391e45a31de9110e74ce681bcbc0688507f598bafeaaab589ea3182af31ae158ce9f0cf8de20abfab40cfeeaacce2f73558bb
+
+===CACHE_END===
 ===CACHE_START===Crane-1.3.17-iphoneos-arm64e.deb:1778586350:1560128
 Package: com.wkk.crane
 Name: Crane
@@ -185,6 +329,49 @@ MD5sum: 7a2a01ff796f443ff32b39b30f4a11a0
 SHA1: f066e206db63781a77e3ad72291865f6f6d038b2
 SHA256: c2afc7aad6afa5fdcb5b4fdd00ed05381e272151fa5088c9e7efbd14f8b46b20
 SHA512: 68408b439608cbe0391c972944601fc8141782665ee888b72c80a65a736f80e50fe3bcc82b1dd3c810d259a0b909b2604a093ce5f5d2f7f80cd5c89c2eb11bf2
+
+===CACHE_END===
+===CACHE_START===floatingView-1.6.0-2-iphoneos-arm64e.deb:1778818552:1797482
+Package: com.be-huge.floating-view
+Name: floatingView
+Description: 分屏，不必太复杂，一切从简即可。
+Maintainer: be-huge
+Author: be-huge
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64e
+Version: 1.6.0-2
+Installed-Size: 2692
+Icon: https://s1.imagehub.cc/images/2025/01/11/a6ee9b7d3555d062c59b68c2c71c7406.png
+SileoDepiction:https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/floatingView.json
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/floatingView-1.6.0-2-iphoneos-arm64e.deb
+Size: 1797482
+MD5sum: 0bf84415a2520ee2b0073e2f9fb569fc
+SHA1: 60a16fc8270271efd8a2b49fd63631934b9b92f8
+SHA256: 291a33627b9cb1d76ea2481679e317103cb515859bf8e3247306d2275bb10be2
+SHA512: 1965c34696222aced719e0c196adeb267d50cbeb8dafe01f3e78bb923227151e4b6c37fe15c7eee7f7cbbfec000e1376a984dc80a69c17849805196b9792b701
+
+===CACHE_END===
+===CACHE_START===CopyVault(激活码版)-1.9.0-iphoneos-arm64e.deb:1778818552:1706952
+Package: cn.octoforce.copyvault
+Name: CopyVault(激活码版)
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Your Copy Vault, Your Pasteboard
+Maintainer: SquidForce, Backup
+Author: SquidForce, Backup
+Section: 嗨-付费
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.squidforce.copyvault
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
+Architecture: iphoneos-arm64e
+Version: 1.9.0
+Installed-Size: 6380
+Filename: ./debs/CopyVault(激活码版)-1.9.0-iphoneos-arm64e.deb
+Size: 1706952
+MD5sum: 28714525eeb38495089d5989142edee0
+SHA1: 84e21ccc11c9be4f0578951c279f5b657d6364cb
+SHA256: 26453fc418aa4d7b7986901d3112f5f117b8c69ab8e43894b8d420b5737ad996
+SHA512: 23bef333f98c2a08587a3c3f1e4dece1a00cb2b1a15d1a4cad9d174f3a4328f962f05c53f4b237c50483602d77a1318f526716fd09dc3ebf54761e6fdef5c8ba
 
 ===CACHE_END===
 ===CACHE_START===com.iosdump.customcallbg_0.0.4_iphoneos-arm64e.deb:1778816178:32050
@@ -286,6 +473,91 @@ SHA256: 42f77686aed3be157274826087eab7ff87f7baf87e4174c7a2f048907c48be94
 SHA512: fd30d3d0d3c2669fa26aa62fd6cc7491c1543909ae2a2cf8460e399dc3e4acc24cf223080561136b134a083bf0791128eeda7e8498c60f401462b71172303109
 
 ===CACHE_END===
+===CACHE_START===floatingView-1.6.0-5-iphoneos-arm64e.deb:1778818552:1801316
+Package: com.be-huge.floating-view
+Name: floatingView
+Description: 分屏，不必太复杂，一切从简即可。
+Maintainer: be-huge
+Author: be-huge
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64e
+Version: 1.6.0-5
+Installed-Size: 2692
+Icon: https://s1.imagehub.cc/images/2025/01/11/a6ee9b7d3555d062c59b68c2c71c7406.png
+SileoDepiction:https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/floatingView.json
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/floatingView-1.6.0-5-iphoneos-arm64e.deb
+Size: 1801316
+MD5sum: f2aaffc4830162f9376f8a2e46563375
+SHA1: bebaf57f8bd9beb45f32e1b2710870617cdb7a82
+SHA256: 109fe7bc9e2e43b856a0b0be1854b3ca821af5efddcbe0a0c3be8d0e3e5a25fb
+SHA512: f52c12d9054903144fbadd90b17f5fb92c501a004bcecae286f2605428054e17b629a5269bd0e43ca0c13410ca2ce43d7d2895f80bcbd90cff795914623f8a20
+
+===CACHE_END===
+===CACHE_START===ZoomAnimation(roothide)-0.0.1-13-iphoneos-arm64e.deb:1778818552:58364
+Package: com.sini921.zoomanimation
+Name: ZoomAnimation(roothide)
+Icon: https://sini921.github.io/repo/sileodepiction/icon/zoomanimation.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/zoomanimation/js.json
+Description: 桌面动画，可选动画样式，调节动画幅度。
+Maintainer: SINI
+Author: SINI
+Section: 越狱插件
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 0.0.1-13
+Installed-Size: 472
+Filename: ./debs/ZoomAnimation(roothide)-0.0.1-13-iphoneos-arm64e.deb
+Size: 58364
+MD5sum: 1c05d63c0de09a6c0a2ab4b35cda6472
+SHA1: 517eca23ec89285819ab5273e03c06df08fc4b5b
+SHA256: 910def24e7bcfa271fd4deef1bf7424a3550a81efe48c4a79ccc5351eef2b265
+SHA512: 3794e87ab943b41fd6b08cfc028487f0c0af9ba015535c14640fd1add6b5ccfc9f3fe95b3d29ca43de514f79a0734e0f506cf556e2ef02b03e914472dd7b5402
+
+===CACHE_END===
+===CACHE_START===MilkyWayReborn(RootHide)-1.0.0-iphoneos-arm64e.deb:1778818552:38866
+Package: com.dao.milkywayreborn
+Name: MilkyWayReborn(RootHide)
+Description: 窗口化多任务，也就是分屏；无设置，后台界面，按住程序卡片2秒，即可将此程序窗口化/分屏；由 akusio 基于 MilkyWay2 现代化重写；34306 优化适用于 iOS17–18 和 26。
+Maintainer: MilkyWay Reborn
+Author: MilkyWay Reborn
+Section: 海-系统
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.milkyway.reborn
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/milkyway/js.json
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 276
+Filename: ./debs/MilkyWayReborn(RootHide)-1.0.0-iphoneos-arm64e.deb
+Size: 38866
+MD5sum: 2f5160a38743ae4e40eada542a66745e
+SHA1: a5eeeedadfcdb32631313f2a481786d0651a8aac
+SHA256: f65bd22b00c88965170a197e3ca441b2e87a00fc33b91a53ad4046c2653f7e27
+SHA512: 80b3a85041939a1bf7915328fc685aad7d33df3281981588b4bedab705396e30b654b0e305024d4727fc54412e093648e81e57c52908af664410d49a3be004a3
+
+===CACHE_END===
+===CACHE_START===MilkyWayReborn(RootHide)-1.2-iphoneos-arm64e.deb:1778818552:47300
+Package: com.dao.milkywayreborn
+Name: MilkyWayReborn(RootHide)
+Description: 窗口化多任务，也就是分屏；无设置，后台界面，按住程序卡片2秒，即可将此程序窗口化/分屏；由 akusio 基于 MilkyWay2 现代化重写；34306 优化适用于 iOS17–18 和 26。
+Maintainer: MilkyWay Reborn
+Author: MilkyWay Reborn
+Section: 海-系统
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.milkyway.reborn
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/milkyway/js.json
+Architecture: iphoneos-arm64e
+Version: 1.2
+Installed-Size: 308
+Filename: ./debs/MilkyWayReborn(RootHide)-1.2-iphoneos-arm64e.deb
+Size: 47300
+MD5sum: ed53e2f611e5d3eabae9c9d0c987385d
+SHA1: 61fa8f284c586e9bb8010e01055cf993b46941c9
+SHA256: c46226252a88a91c7bb85e3dedabeab5c8a116b01166b9384383504b611a0a46
+SHA512: b4940058624d1e9eb50987a3040c1d6dadabea47a520afff9b742e1d3a9a0241ee757694778fb26a90caf22836cd8adf292d9479a746ae685e68e809bbd7a78b
+
+===CACHE_END===
 ===CACHE_START===floatingView-1.6.0-5-iphoneos-arm64e.deb:1778484906:1801316
 Package: com.be-huge.floating-view
 Name: floatingView
@@ -306,6 +578,45 @@ MD5sum: f2aaffc4830162f9376f8a2e46563375
 SHA1: bebaf57f8bd9beb45f32e1b2710870617cdb7a82
 SHA256: 109fe7bc9e2e43b856a0b0be1854b3ca821af5efddcbe0a0c3be8d0e3e5a25fb
 SHA512: f52c12d9054903144fbadd90b17f5fb92c501a004bcecae286f2605428054e17b629a5269bd0e43ca0c13410ca2ce43d7d2895f80bcbd90cff795914623f8a20
+
+===CACHE_END===
+===CACHE_START===com.iosdump.customcallbg_0.0.4_iphoneos-arm64e.deb:1778818552:32050
+Package: com.iosdump.customcallbg
+Name: CustomCallBg
+Depends: mobilesubstrate, preferenceloader
+Description: iOS 14-17 自定义来去电背景插件
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.4
+Installed-Size: 428
+Filename: ./debs/com.iosdump.customcallbg_0.0.4_iphoneos-arm64e.deb
+Size: 32050
+MD5sum: 0d05b311cd553c64e652aee245b8f641
+SHA1: 31f2c94266bc18ead44ad67005031ead63cdf2ac
+SHA256: 3f0d58108d8b7a02ed8d847031d7696671a77dfcd0f29e0a105067505b3bf077
+SHA512: 11ee3d1a94e7918355f61643bc1ffbfbcc59659cf3fb254fdebb6023232af7d035fa6153acbf11b225b33d2b678a6885d7737d4965ccb79106e2a700e560f184
+
+===CACHE_END===
+===CACHE_START===Choicy(RootHide)-1.5.3-4-iphoneos-arm64e.deb:1778817078:161664
+Package: com.dao.choicy
+Name: Choicy(RootHide)
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Description: 高级插件配置器，可单独为每个程序启用/禁用插件等。
+Maintainer: opa334 <opa334@protonmail.com>
+Author: opa334 <opa334@protonmail.com>
+Section: 嗨-系统
+Conflicts: com.opa334.choicy
+Architecture: iphoneos-arm64e
+Version: 1.5.3-4
+Installed-Size: 1056
+Filename: ./debs/Choicy(RootHide)-1.5.3-4-iphoneos-arm64e.deb
+Size: 161664
+MD5sum: 18df4d24819218006fd0f54f29de9ab0
+SHA1: db367a65786326af76f6c9a63ad66f5e7d11072d
+SHA256: 4d2dd7a923c1380dc5dfbb10bf0ec8828bd5b009852376fe284d0738f71abce7
+SHA512: 082941f5e24cbf48f33eb413655a99f4ef337d70dc098521d606ac2c42a5100540ee53b5e61b5a79e003dfbd24bcec565bef3b4c3ae0ff28e1b691f64df69de9
 
 ===CACHE_END===
 ===CACHE_START===ZoomAnimation(roothide)-0.0.1-13-iphoneos-arm64e.deb:1778325001:58364
@@ -329,27 +640,26 @@ SHA256: 910def24e7bcfa271fd4deef1bf7424a3550a81efe48c4a79ccc5351eef2b265
 SHA512: 3794e87ab943b41fd6b08cfc028487f0c0af9ba015535c14640fd1add6b5ccfc9f3fe95b3d29ca43de514f79a0734e0f506cf556e2ef02b03e914472dd7b5402
 
 ===CACHE_END===
-===CACHE_START===Choicy(RootHide)-1.5.3-4-iphoneos-arm64e.deb:1778817078:161664
-Package: com.dao.choicy
-Name: Choicy(RootHide)
-Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
-Description: 高级插件配置器，可单独为每个程序启用/禁用插件等。
-Maintainer: opa334 <opa334@protonmail.com>
-Author: opa334 <opa334@protonmail.com>
-Section: 嗨-系统
-Conflicts: com.opa334.choicy
+===CACHE_START===FilzaDirProbe-1.6.2-iphoneos-arm64e.deb:1778818003:1140
+Package: com.0xkuj.filzadirprobe
+Section: Tweaks
+Maintainer: 0xkuj
 Architecture: iphoneos-arm64e
-Version: 1.5.3-4
-Installed-Size: 1056
-Filename: ./debs/Choicy(RootHide)-1.5.3-4-iphoneos-arm64e.deb
-Size: 161664
-MD5sum: 18df4d24819218006fd0f54f29de9ab0
-SHA1: db367a65786326af76f6c9a63ad66f5e7d11072d
-SHA256: 4d2dd7a923c1380dc5dfbb10bf0ec8828bd5b009852376fe284d0738f71abce7
-SHA512: 082941f5e24cbf48f33eb413655a99f4ef337d70dc098521d606ac2c42a5100540ee53b5e61b5a79e003dfbd24bcec565bef3b4c3ae0ff28e1b691f64df69de9
+Version: 1.6.2
+Pre-Depends: rootless-compat (>= 0.9)
+Description: 计算Filza里文件夹大小。
+Name: FilzaDirProbe
+Author: 0xkuj
+Icon: https://s1.imagehub.cc/images/2025/04/02/754b2bb601bad95dca5cb982e7d926af.jpeg
+Filename: ./debs/FilzaDirProbe-1.6.2-iphoneos-arm64e.deb
+Size: 1140
+MD5sum: f911c1e98893b86444a0f186a5409f44
+SHA1: 2d2d8019b6643f452f90044115811d9bd78c3b2e
+SHA256: 475991340ef34767cdef3c54888e42b9a598672b55bafd8628e34e961422e6af
+SHA512: 7af3e0cd29dfc70d23005489a6a73e8147e73e0bcd59a6037e3936fe6dea9c99dad5a97a37a9449752de8192b464dfa8b0486a8b3bc6c93ab025f24e35c8bb12
 
 ===CACHE_END===
-===CACHE_START===FilzaDirProbe-1.6.2-iphoneos-arm64e.deb:1778818003:1140
+===CACHE_START===FilzaDirProbe-1.6.2-iphoneos-arm64e.deb:1778818552:1140
 Package: com.0xkuj.filzadirprobe
 Section: Tweaks
 Maintainer: 0xkuj
@@ -387,6 +697,28 @@ MD5sum: ed53e2f611e5d3eabae9c9d0c987385d
 SHA1: 61fa8f284c586e9bb8010e01055cf993b46941c9
 SHA256: c46226252a88a91c7bb85e3dedabeab5c8a116b01166b9384383504b611a0a46
 SHA512: b4940058624d1e9eb50987a3040c1d6dadabea47a520afff9b742e1d3a9a0241ee757694778fb26a90caf22836cd8adf292d9479a746ae685e68e809bbd7a78b
+
+===CACHE_END===
+===CACHE_START===floatingView-1.6.0-6-iphoneos-arm64e.deb:1778818552:1795960
+Package: com.be-huge.floating-view
+Name: floatingView
+Description: 分屏，不必太复杂，一切从简即可。
+Maintainer: be-huge
+Author: be-huge
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64e
+Version: 1.6.0-6
+Installed-Size: 2692
+Icon: https://s1.imagehub.cc/images/2025/01/11/a6ee9b7d3555d062c59b68c2c71c7406.png
+SileoDepiction:https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/floatingView.json
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/floatingView-1.6.0-6-iphoneos-arm64e.deb
+Size: 1795960
+MD5sum: d59b9cbd5661a6cdaeb60ed38d1b7f4f
+SHA1: 53748fa13d3fb2ec126c5ff0c2c289431af574cb
+SHA256: ca5075a98794d8d8e49cbf84ac5d206fbadc891c030937f344f42138e1ab3845
+SHA512: de0a6f15b4aa2f06cce1aae20d3dee63fc0fe6c0d628f0a9285f5074242ec6473812729e1706b1b9c126efd435ff10a105073390736ce4378723d58665286397
 
 ===CACHE_END===
 ===CACHE_START===MilkyWayReborn(RootHide)-1.0.0-iphoneos-arm64e.deb:1778333485:38866
@@ -454,6 +786,49 @@ SHA256: 42f4ea7f5bad92b23738e1efcf9351d254f437c7be3880de9aaa97c4d0008274
 SHA512: 3d169cc31ee7addc19eddb1ac1f89e363d7d6b4b521d14a3375b76a70891f72739cde7826a5200974bc14306239a91ade31332ab8c32337bc689c36dc2511f83
 
 ===CACHE_END===
+===CACHE_START===cn.octoforce.squidextender_3.7.4_iphoneos-arm64e.deb:1778818552:6854386
+Package: cn.octoforce.squidextender
+Name: SquidExtender(激活码版)
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Extend your keyboard to be more POWERFULL!
+Maintainer: SquidForce, Backup
+Author: SquidForce, Backup
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: com.squidforce.squidextender
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
+Architecture: iphoneos-arm64e
+Version: 3.7.4
+Installed-Size: 9988
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/cn.octoforce.squidextender_3.7.4_iphoneos-arm64e.deb
+Size: 6854386
+MD5sum: d2921806fad16b3ff1c15ffaf7176b15
+SHA1: bfa9ba6a8a5d63ea96bdb8de11711c82fc0196c3
+SHA256: 78bb862624e3811141b79701b1a155347f2204ede9dd60f611e7db037a9432e0
+SHA512: 46a7c9dc0332a2f7d315737f6b9ef20b15978db4a6f2388c095293e5a42fee773e674f8a68c6a9f4e63cb995fc62d07a6dc98ca24186cd34e0ba1853457b0319
+
+===CACHE_END===
+===CACHE_START===PSCamera(roothide)-0.0.1-5-iphoneos-arm64e.deb:1778818552:121704
+Package: com.sini921.pscamera
+Name: PSCamera(roothide)
+Description: 系统相机App简单优化，使用了一些PoomSmart的开源代码
+Maintainer: PoomSmart & SINI
+Author: PoomSmart & SINI
+Section: 越狱插件
+Depends: mobilesubstrate (>= 0.9.5000)
+Icon: https://sini921.github.io/repo/sileodepiction/icon/pscamera.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/pscamera/js.json
+Architecture: iphoneos-arm64e
+Version: 0.0.1-5
+Installed-Size: 600
+Filename: ./debs/PSCamera(roothide)-0.0.1-5-iphoneos-arm64e.deb
+Size: 121704
+MD5sum: 203a46ae95d24c59ea9556d9caeb8ae5
+SHA1: 00d289053f8386e236d13d632cbc63faf869f369
+SHA256: 42f77686aed3be157274826087eab7ff87f7baf87e4174c7a2f048907c48be94
+SHA512: fd30d3d0d3c2669fa26aa62fd6cc7491c1543909ae2a2cf8460e399dc3e4acc24cf223080561136b134a083bf0791128eeda7e8498c60f401462b71172303109
+
+===CACHE_END===
 ===CACHE_START===floatingView-1.6.0-4-iphoneos-arm64e.deb:1778484900:1795020
 Package: com.be-huge.floating-view
 Name: floatingView
@@ -496,6 +871,127 @@ SHA256: 059fc29305c16592471d6cc7c6f8f19619b0abb2bc11794e6e33c3b10778bf5a
 SHA512: 0cd45884ef3053af03ba9b807e60fceedf7d3616be94e29958ce8493def775d23ac3fa272fa37b4787fc71687138265d06a3c187183616ed4bf358848beb501d
 
 ===CACHE_END===
+===CACHE_START===高德地图NoAds-1.1-3-iphoneos-arm64e.deb:1778818552:38702
+Package: com.wkk.gaodehook
+Name: 高德地图NoAds
+Description: 去开屏/首页顶部/部分豆腐块广告/去升级提示/去一些弹窗，测试版本：16.10.6
+Maintainer: wkk
+Author: wkk
+Section: 去广告
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.1-3
+Installed-Size: 400
+Icon: https://s1.imagehub.cc/images/2025/02/06/40c726a175b0b0a82d1fbc1c0c309be8.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/高德地图NoAds-1.1-3-iphoneos-arm64e.deb
+Size: 38702
+MD5sum: 8d11afe1c4b6248fd58043d5e63c0aef
+SHA1: f25d09bd389aee062a06744b4b7118210dbd0c68
+SHA256: d339947a3ee3ccf86c58411f95937a88c01c7a8518812180104c1e25005da984
+SHA512: f95e9a1d333cc22926c5f3705b90982a63355452be8e768cdde4fe70c7484a3219d81fc9edaa48038229e3f155c445162f42d3dd8329d5cbb40c844b5fbb4759
+
+===CACHE_END===
+===CACHE_START===Choicy(RootHide)-1.5.3-4-iphoneos-arm64e.deb:1778818552:161664
+Package: com.dao.choicy
+Name: Choicy(RootHide)
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Description: 高级插件配置器，可单独为每个程序启用/禁用插件等。
+Maintainer: opa334 <opa334@protonmail.com>
+Author: opa334 <opa334@protonmail.com>
+Section: 嗨-系统
+Conflicts: com.opa334.choicy
+Architecture: iphoneos-arm64e
+Version: 1.5.3-4
+Installed-Size: 1056
+Filename: ./debs/Choicy(RootHide)-1.5.3-4-iphoneos-arm64e.deb
+Size: 161664
+MD5sum: 18df4d24819218006fd0f54f29de9ab0
+SHA1: db367a65786326af76f6c9a63ad66f5e7d11072d
+SHA256: 4d2dd7a923c1380dc5dfbb10bf0ec8828bd5b009852376fe284d0738f71abce7
+SHA512: 082941f5e24cbf48f33eb413655a99f4ef337d70dc098521d606ac2c42a5100540ee53b5e61b5a79e003dfbd24bcec565bef3b4c3ae0ff28e1b691f64df69de9
+
+===CACHE_END===
+===CACHE_START===com.duck.qis_5.2.0_iphoneos-arm64e.deb:1778818552:54416
+Package: com.duck.qis
+Version: 5.2.0
+Section: dylib
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Architecture: iphoneos-arm64e
+Name: 汽水去广告（TrollFools注入）
+Author: duck
+Maintainer: duck
+Description: 使用巨魔注入器即可使用
+Filename: ./debs/com.duck.qis_5.2.0_iphoneos-arm64e.deb
+Size: 54416
+MD5sum: c4b31618e77efe446b4e3fecd15595e4
+SHA1: b4e44739bbcea7d94a0118b99a25b4752e3dd56c
+SHA256: cd425598e416c79a203cfe38f5a7ff43699604544480ab65e41bb128f2ac6b30
+SHA512: a617d566696832201eb43d6cc721054871d50dbc76e055222b1445c797fb72e19e0a87b458a205c9679317ef6e2c91f7583578ff48d3126211db3aa1adc0ee0e
+
+===CACHE_END===
+===CACHE_START===左滑返回(Roothide)-1.0-6-iphoneos-arm64e.deb:1778818552:22764
+Package: com.25mao.leftpan.roothide
+Priority: optional
+Section: Rootless
+Maintainer: admin@25mao.com
+Architecture: iphoneos-arm64e
+Version: 1.0-6
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.4)
+Pre-Depends: rootless-compat (>= 0.9)
+Description: 左滑返回上一页面
+Name: 左滑返回(Roothide)
+Author: Mao
+Filename: ./debs/左滑返回(Roothide)-1.0-6-iphoneos-arm64e.deb
+Size: 22764
+MD5sum: 25225fd66d590ac33f206f043ef10345
+SHA1: 944419817cb8565c582f08943884572ca6e7a956
+SHA256: 097e895a3487616af98054fbb476c342242f5440b31c31b4eeb3375edddf41a7
+SHA512: 0035050a5cc5e064a6a8b61336fbcb709be26ca6bb0d75a4b5746168ba3c63303b6920bbd0ecd8d7187fa7ec99c836885bf624aeaca6ca312cac307d12808473
+
+===CACHE_END===
+===CACHE_START===floatingView-1.6.0-3-iphoneos-arm64e.deb:1778818552:1799406
+Package: com.be-huge.floating-view
+Name: floatingView
+Description: 分屏，不必太复杂，一切从简即可。
+Maintainer: be-huge
+Author: be-huge
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64e
+Version: 1.6.0-3
+Installed-Size: 2692
+Icon: https://s1.imagehub.cc/images/2025/01/11/a6ee9b7d3555d062c59b68c2c71c7406.png
+SileoDepiction:https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/floatingView.json
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/floatingView-1.6.0-3-iphoneos-arm64e.deb
+Size: 1799406
+MD5sum: fe4901158fc635afa8c7fd9b62ec6470
+SHA1: 9a25e484df609b930a53163e4b6469d833cd2259
+SHA256: 42f4ea7f5bad92b23738e1efcf9351d254f437c7be3880de9aaa97c4d0008274
+SHA512: 3d169cc31ee7addc19eddb1ac1f89e363d7d6b4b521d14a3375b76a70891f72739cde7826a5200974bc14306239a91ade31332ab8c32337bc689c36dc2511f83
+
+===CACHE_END===
+===CACHE_START===com.duck.roothide.cc_2.1_iphoneos-arm64e.deb:1778818552:498368
+Package: com.duck.roothide.cc
+Section: 嗨-工具
+Maintainer: 妖刀
+Architecture: iphoneos-arm64e
+Version: 2.1
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Pre-Depends: rootless-compat (>= 0.9)
+Description: 超级控制中心模块集合！
+Name: CCLess++(RootHide)
+Author: 妖刀
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
+Filename: ./debs/com.duck.roothide.cc_2.1_iphoneos-arm64e.deb
+Size: 498368
+MD5sum: 3e6e15e3641d2ba52acc61baf13ffbf4
+SHA1: 2ff4c9fb2b5ba4f0f9ece73d06d29fbb2662c596
+SHA256: 059fc29305c16592471d6cc7c6f8f19619b0abb2bc11794e6e33c3b10778bf5a
+SHA512: 0cd45884ef3053af03ba9b807e60fceedf7d3616be94e29958ce8493def775d23ac3fa272fa37b4787fc71687138265d06a3c187183616ed4bf358848beb501d
+
+===CACHE_END===
 ===CACHE_START===左滑返回(Roothide)-1.0-6-iphoneos-arm64e.deb:1778817032:22764
 Package: com.25mao.leftpan.roothide
 Priority: optional
@@ -514,6 +1010,65 @@ MD5sum: 25225fd66d590ac33f206f043ef10345
 SHA1: 944419817cb8565c582f08943884572ca6e7a956
 SHA256: 097e895a3487616af98054fbb476c342242f5440b31c31b4eeb3375edddf41a7
 SHA512: 0035050a5cc5e064a6a8b61336fbcb709be26ca6bb0d75a4b5746168ba3c63303b6920bbd0ecd8d7187fa7ec99c836885bf624aeaca6ca312cac307d12808473
+
+===CACHE_END===
+===CACHE_START===com.leaf.apps_1.1.1_iphoneos-arm64e.deb:1778818552:154112
+Package: com.leaf.apps
+Name: Chatgpt
+Description: 可以在低系统用 chagpt
+Maintainer: Leaf
+Author: Leaf
+Section: Utilities
+Architecture: iphoneos-arm64e
+Version: 1.1.1
+Installed-Size: 600
+Filename: ./debs/com.leaf.apps_1.1.1_iphoneos-arm64e.deb
+Size: 154112
+MD5sum: 96f25532d980a4d71fcb991b25ba3275
+SHA1: 8ec84fc700f1bfce1bd05b3cb701a94d3a5058b8
+SHA256: f1847e2b7d4a640e6b442cf8fb3dfe36c96e3912a1294f0bf8614efbbeee0c47
+SHA512: e001cb723c63854fa0f51f912f1a59333afe831ce9d08430c079b8a5dbb3a8ccc9c99259e7dde7d15959641ad606bf25b654976f3083f474f5ad0257b0be06fb
+
+===CACHE_END===
+===CACHE_START===CCBorder(roothide)-1.1.2-42-iphoneos-arm64e.deb:1778818552:207532
+Package: com.sini921.ccborder
+Name: CCBorder(roothide)
+Description: 控制中心调整，基于开源修改编译，去掉了AlderisColorPicker依赖
+Maintainer: fiore & p2kdev & SINI
+Author: fiore & p2kdev & SINI
+Section: 控制中心
+Depends: mobilesubstrate, firmware (>= 16.0)
+Icon: https://sini921.github.io/repo/sileodepiction/icon/ccborder.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccborder/js.json
+Architecture: iphoneos-arm64e
+Version: 1.1.2-42
+Installed-Size: 1008
+Filename: ./debs/CCBorder(roothide)-1.1.2-42-iphoneos-arm64e.deb
+Size: 207532
+MD5sum: 147e010f756f089e90060fd701262708
+SHA1: bb5c97e42618230cbff3736981d87e5afe325c90
+SHA256: d51be8d0bd3b6eb6ed4c6542834a05c7f7ccf529b8ce32db1a5387501515e11b
+SHA512: 216a965bdccf437b79772408efbe0b8313d58af8259cc52e5f48ec21aa741608866fb1dd527286b2ac862ae2d6754b37641aaa073b51b2787f02bdea0e64383f
+
+===CACHE_END===
+===CACHE_START===com.iosdump.customcallbg_0.0.1_iphoneos-arm64e.deb:1778818552:40126
+Package: com.iosdump.customcallbg
+Name: CustomCallBg
+Depends: mobilesubstrate, preferenceloader
+Description: iOS 14-17 自定义来去电背景插件
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Installed-Size: 408
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.iosdump.customcallbg_0.0.1_iphoneos-arm64e.deb
+Size: 40126
+MD5sum: 17428d7adebae39f07e3410f6d67fe04
+SHA1: bf35c069ed1f5ae7c2ccd6cac1b00e9f8c5b0ff5
+SHA256: 4c0c37dc0ffc019e7fc45e026c17fd3816cf1987999ceb7077405b632e9efda6
+SHA512: d4ef9a55929b1fca5a6196f5bc0829401ffdbade66418a5694a31e54fb4b6743e218f688ccb33e273ab2c0955dfe364c3b5a8190c4bf264c38d25fe04e968f2b
 
 ===CACHE_END===
 ===CACHE_START===Folder4x4-1.2-8-iphoneos-arm64e.deb:1778333552:14222
@@ -558,6 +1113,27 @@ SHA256: d8b6bf7829c81bd4b81b7d747d64d2a88024750b54cb2c95b8bdc34e78c8e273
 SHA512: d8322811589aa204f56b0e41457391e45a31de9110e74ce681bcbc0688507f598bafeaaab589ea3182af31ae158ce9f0cf8de20abfab40cfeeaacce2f73558bb
 
 ===CACHE_END===
+===CACHE_START===Single VPN(roothide)-2.1-2-iphoneos-arm64e.deb:1778818552:35252
+Package: com.sini.singlevpn
+Icon: https://sini921.github.io/repo/sileodepiction/icon/singlevpn.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/singlevpn/js.json
+Name: Single VPN(roothide)
+Description: 将 VPN 状态和无线状态合并到一个图标中。
+Maintainer: 82Flex <82flex@gmail.com>
+Author: 82Flex <82flex@gmail.com>
+Section: 越狱插件
+Depends: firmware (>= 14.0), mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 2.1-2
+Installed-Size: 420
+Filename: ./debs/Single VPN(roothide)-2.1-2-iphoneos-arm64e.deb
+Size: 35252
+MD5sum: ae046c1525b999089cce58eb6832cf87
+SHA1: bdd5f30eab5c91e23fea64d42de02af82b24e783
+SHA256: 6d887bb1e98db2032790f6713f6fd9f7de65ec720a9e06ce73afc07ed17b7211
+SHA512: aebc3d46e23faa884f9c36ecf163f73a8360ff83a23320f35bad145045662adc49b64184e419d4b481c676cd7ac982f949b34991882a628de5eaf6301c04c030
+
+===CACHE_END===
 ===CACHE_START===cn.octoforce.squidextender_3.7.4_iphoneos-arm64e.deb:1772366011:6854386
 Package: cn.octoforce.squidextender
 Name: SquidExtender(激活码版)
@@ -598,6 +1174,28 @@ SHA256: cd425598e416c79a203cfe38f5a7ff43699604544480ab65e41bb128f2ac6b30
 SHA512: a617d566696832201eb43d6cc721054871d50dbc76e055222b1445c797fb72e19e0a87b458a205c9679317ef6e2c91f7583578ff48d3126211db3aa1adc0ee0e
 
 ===CACHE_END===
+===CACHE_START===floatingView-1.6.0-1-iphoneos-arm64e.deb:1778818552:1796570
+Package: com.be-huge.floating-view
+Name: floatingView
+Description: 分屏，不必太复杂，一切从简即可。
+Maintainer: be-huge
+Author: be-huge
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64e
+Version: 1.6.0-1
+Installed-Size: 2692
+Icon: https://s1.imagehub.cc/images/2025/01/11/a6ee9b7d3555d062c59b68c2c71c7406.png
+SileoDepiction:https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/floatingView.json
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/floatingView-1.6.0-1-iphoneos-arm64e.deb
+Size: 1796570
+MD5sum: edee521f78341f8ed04bcb06c6ee65ee
+SHA1: 8f3f9ed0b47a22c5141c0ddabdfd598db828fa10
+SHA256: c6b4edb9cc70663c59d3545ada67f6dd83d4bdb9cac5520df27bcc63a1cc9d78
+SHA512: 0c7fb42c0fc3dd99f904fd20a0ebc791b3d069555e21a79c1357d9822d15db5eaca64a99f268d40e4063a391ea4552ac5c67bd4ed099919de3082501fc543466
+
+===CACHE_END===
 ===CACHE_START===计算器添加历史-1.2-iphoneos-arm64e.deb:1778816958:1268
 Package: byg.iosios.net.calculatorhistory
 Section: 系统增强
@@ -619,7 +1217,68 @@ SHA256: 3e24627adc32b660f99a57fcd6a25f4faf50f994dfe7d21f79ab6434483c91e9
 SHA512: 0393e7b5ed3e9398d42e1db5c1afb0bd056d40664522edf435bb7f486b5b8c8e389131c596b099ad4be3b428d5fe6a817114e2ed8475786215719dd676cb3150
 
 ===CACHE_END===
+===CACHE_START===Folder4x4-1.2-8-iphoneos-arm64e.deb:1778818552:14222
+Package: com.wkk.folder4
+Name: Folder4x4
+Description: 4x4的文件夹布局/隐藏打开后的文件夹背景/打开文件夹内app自动关闭文件夹/调整打开后文件夹布局整体为中心/修复springboard奔溃后文件夹图标剩9个/配合源里文件夹阴影使用将springboard占用压榨到最低。
+Maintainer: wkk
+Author: wkk
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.2-8
+Icon: https://s1.imagehub.cc/images/2026/01/17/9209c2f3055f3d518df1df10d0fee36e.png
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/Folder4x4-1.2-8-iphoneos-arm64e.deb
+Size: 14222
+MD5sum: 99e31f4d2b33952d3512ee04a00fd06f
+SHA1: d375a5cb4fc0de971e9944687ded695b72345414
+SHA256: 7b509e845af9ab4144d762b5650e7fa2ecc23536a503f5c58a8d171c412d1330
+SHA512: aecaad204d43af979800e403b17b6b42888e2ac6e753307da5d894b7a8c7487f963ca72cb808db3b7665909dc9635629c3e968ef20f154f1647e676f0925938e
+
+===CACHE_END===
 ===CACHE_START===com.dyy.tweak_2.0_iphoneos-arm64e.deb:1778591283:310044
+Package: com.dyy.tweak
+Version: 2.0
+Section: dylib
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Architecture: iphoneos-arm64e
+Name: 抖音插件仅仅 37.9.0 使用
+Author: duck
+Maintainer: duck
+Description: 使用巨魔注入器即可使用𓂸
+Filename: ./debs/com.dyy.tweak_2.0_iphoneos-arm64e.deb
+Size: 310044
+MD5sum: db5bd53208330faa3f71934465b6e64d
+SHA1: 93afcc068d85e51d8e4230e59ebe1f3ecab8aac9
+SHA256: 035fc28232e1d2d55f502065858a4c809db8ef2dc142225900c3a8b039a0551c
+SHA512: 0588ddcfd116361674953c67c26b886a663a955c4ada69db15b20cde83aee64862a7a06508771ca87f22248fe60740dab16fd951299b18eb91303f0eb28eaaba
+
+===CACHE_END===
+===CACHE_START===floatingView-1.6.0-4-iphoneos-arm64e.deb:1778818552:1795020
+Package: com.be-huge.floating-view
+Name: floatingView
+Description: 分屏，不必太复杂，一切从简即可。
+Maintainer: be-huge
+Author: be-huge
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64e
+Version: 1.6.0-4
+Installed-Size: 2692
+Icon: https://s1.imagehub.cc/images/2025/01/11/a6ee9b7d3555d062c59b68c2c71c7406.png
+SileoDepiction:https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/floatingView.json
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/floatingView-1.6.0-4-iphoneos-arm64e.deb
+Size: 1795020
+MD5sum: 9c8b7719d9bc3ecfe119139dafdc0903
+SHA1: f40cb5254750e07890d055710651f81f8bf48ec5
+SHA256: a8f56f0e6272ac6b45e4bb97ad74cd382a6e71ecd6f27f16a7f095031f541fc5
+SHA512: 38757c136b877b9ca057ad920e8678de64848c28f921b4f87da8180c142785227b2d51e7a27e7c3d976bb6b9a8bda711dd224fd39dfda39825a93e65fa85ba6f
+
+===CACHE_END===
+===CACHE_START===com.dyy.tweak_2.0_iphoneos-arm64e.deb:1778818552:310044
 Package: com.dyy.tweak
 Version: 2.0
 Section: dylib
