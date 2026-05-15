@@ -1,34 +1,71 @@
-name: Generate Sileo Repo
+name: Sileo Repo Auto Build & Deploy
 
 on:
   push:
     branches: [ main ]
   workflow_dispatch:
 
+# 关键：添加Pages部署所需的所有权限
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+# 只允许一个并发部署
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
+  # 第一步：生成源文件
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Install dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y dpkg-dev gzip coreutils
 
-      - name: Generate Packages and Release
+      - name: Run repo generator script
         run: |
           chmod +x gen.sh
           bash gen.sh
 
-      - name: Commit changes
+      - name: Commit and push generated files
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add -A
-          git diff --staged --quiet || git commit -m "Auto-generate Packages & Release [skip ci]"
+          # 只有当有变更时才提交，[skip ci]避免无限循环
+          git diff --staged --quiet || git commit -m "Auto-update Packages & Release [skip ci]"
           git push
+
+  # 第二步：部署到GitHub Pages
+  deploy:
+    needs: generate  # 等待生成步骤完成
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository (with generated files)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'  # 上传整个仓库作为Pages内容
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
